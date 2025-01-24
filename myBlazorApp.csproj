@@ -4,6 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RunArguments>--no-launch-profile</RunArguments>
+    <Watch>true</Watch>
   </PropertyGroup>
 
   <ItemGroup>

@@ -4,6 +4,16 @@
     flex-direction: column;
 }
 
+.musersheader {
+    color: #2A5496;
+    -webkit-text-stroke: 1px #2A5496;
+    letter-spacing: -1.5px;
+    font-family: 'Bodoni Moda';
+    text-shadow: 0 3.5px 4px #838585;
+    font-size: 55px;
+    padding-left: 25px;
+}
+
 main {
     flex: 1;
 }
