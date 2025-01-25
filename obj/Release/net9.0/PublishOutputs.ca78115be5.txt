@@ -1,0 +1,2 @@
+C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\publish\firebase.json
+C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\publish\web.config
