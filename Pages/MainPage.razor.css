@@ -1,0 +1,20 @@
+.icon-container {
+    display: flex;
+    position: absolute;
+    top: -50;
+    right: 0;
+    gap: 15px;
+    padding: 30px;
+}
+
+.material-symbols-outlined {
+    color: #2A5496;
+    font-size: 30px; 
+    cursor: pointer;
+}
+
+@media (max-width: 641px) {
+    .icon-container {
+        padding-top: 70px;
+    }
+}

@@ -1,0 +1,47 @@
+.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.theheader {
+    padding-top: 10px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    width: 100%;
+    top: 0;
+}
+
+.muserstext {
+    position: left;
+    color: #2A5496;
+    -webkit-text-stroke: 1px #2A5496;
+    letter-spacing: -1.5px;
+    font-family: 'Bodoni Moda';
+    text-shadow: 0 3.5px 4px #838585;
+    font-size: 55px;
+    padding-left: 30px;
+    justify-self: start;
+    animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+main {
+    flex: 1;
+}
+
+@media (max-width: 641px) {
+    .theheader {
+        padding-top: 45px;
+    }
+}

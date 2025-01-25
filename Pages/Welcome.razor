@@ -1,0 +1,66 @@
+﻿@page "/"
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<link href="Welcome.razor.css" rel="stylesheet" />
+<PageTitle>musers.</PageTitle>
+<div class="text-container" @onwheel="HandleWheelEvent" @ontouchmove="HandleTouchMove">
+    <div class="logo-container @LogoAnimationClass">
+        <span class="muserstext">musers.</span>
+        <span class="phonetic">/ˈmjuːzərz/</span>
+        <span class="chahers">by chahers.</span>
+    </div>
+    <div class="scroll-up">Scroll Up</div>
+</div>
+
+@code {
+    private double lastTouchY = 0;
+    private bool isSwipeUp = false;
+    private string LogoAnimationClass = string.Empty;
+
+    private async Task HandleWheelEvent(WheelEventArgs e)
+    {
+        if (e.DeltaY > 0) 
+        {
+            Console.WriteLine("Scrolled up! Navigating to the main page...");
+            await TriggerAnimationAndNavigate();
+        }
+    }
+
+    private async Task HandleTouchMove(TouchEventArgs e)
+    {
+        var touch = e.Touches.FirstOrDefault();
+        if (touch != null)
+        {
+            var currentTouchY = touch.ClientY;
+            
+            if (lastTouchY > 0) // Ignore if this is the first touch
+            {
+                // Check if the swipe is upwards and if it was significant enough
+                var swipeThreshold = 50; // Customize threshold to detect a proper swipe
+
+                if (currentTouchY < lastTouchY && lastTouchY - currentTouchY > swipeThreshold && !isSwipeUp)
+                {
+                    Console.WriteLine("Swipe up detected! Navigating to the main page...");
+                    await TriggerAnimationAndNavigate();
+                    isSwipeUp = true; // Avoid multiple detections
+                }
+                else if (currentTouchY > lastTouchY)
+                {
+                    // Reset the swipe up detection if user swipes down
+                    isSwipeUp = false;
+                }
+            }
+            lastTouchY = currentTouchY;
+        }
+    }
+
+    private async Task TriggerAnimationAndNavigate()
+    {
+        LogoAnimationClass = "animate-logo"; // Add animation class
+        StateHasChanged(); // Re-render the component
+
+        await Task.Delay(1000); // Wait for the animation duration (match with CSS)
+        Navigation.NavigateTo("/main"); // Navigate to the main page
+    }
+}
