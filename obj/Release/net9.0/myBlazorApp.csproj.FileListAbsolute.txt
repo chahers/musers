@@ -37,8 +37,6 @@ C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\Microso
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\Microsoft.Win32.Primitives.2w82csd6tr.wasm
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.krtg4e9rjb.wasm
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\mscorlib.l6md3pggqy.wasm
-C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.qipz3w050x.pdb
-C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.29dj3o7hf9.wasm
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\netstandard.lij9csiyuf.wasm
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.AppContext.ch56s52ual.wasm
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Buffers.tlm3i6pt76.wasm
@@ -248,7 +246,6 @@ C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Runtime.9idl43ts3r.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Collections.Concurrent.jadgrn67lq.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.IO.Pipes.AccessControl.8jmdzj76k5.wasm.gz
-C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.29dj3o7hf9.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Net.WebSockets.Client.5n8jkuhz18.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Runtime.Serialization.6caw9o814c.wasm.gz
@@ -375,7 +372,6 @@ C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\dotnet.
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.IO.FileSystem.Watcher.i0dqersjke.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Threading.Channels.6ly6a97nsg.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
-C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.qipz3w050x.pdb.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Xml.XmlSerializer.php9d66sr9.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\System.Runtime.Serialization.Json.uy989eosch.wasm.gz
 C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.oft8zow1u0.wasm.gz
@@ -864,8 +860,6 @@ C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\xehjkm8xq6-63fj
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\4zhn9d0mc6-sl0dkp6vyn.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\pfr5ix1jlh-iag0ou56lh.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\7u5gk9ai4l-md9yvkcqlf.gz
-C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\a0n89qdww1-6fu71gh8bo.gz
-C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\ljnw7f3f3u-6fu71gh8bo.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\hp0yhshkf6-n41ua9ceve.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\irh86d87mz-h4ild4sjod.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\ov5xp5qzlg-9at76jd5um.gz
@@ -1066,9 +1060,6 @@ C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\jnlyiqd7uk-tyz1
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\w6qbyl7u53-tjcz0u77k5.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\ucp7tuqj4e-tptq2av103.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\9943qt7d6m-lfu7j35m59.gz
-C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\7h1kl7le8z-29dj3o7hf9.gz
-C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\udaqaf3pll-qipz3w050x.gz
-C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\ya89q550rc-qhyexrabea.gz
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\staticwebassets.development.json
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\staticwebassets.build.endpoints.json
@@ -1083,4 +1074,14 @@ C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\myBlazorApp.dll
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\refint\myBlazorApp.dll
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\myBlazorApp.pdb
 C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\ref\myBlazorApp.dll
-C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\b8s2297hmk-o3ic3ohwse.gz
+C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.orc4b2954m.pdb
+C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.0gvn72hehm.wasm
+C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.0gvn72hehm.wasm.gz
+C:\Users\milky\Desktop\myBlazorApp\bin\Release\net9.0\wwwroot\_framework\myBlazorApp.orc4b2954m.pdb.gz
+C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\7h1kl7le8z-0gvn72hehm.gz
+C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\udaqaf3pll-orc4b2954m.gz
+C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\ya89q550rc-n7a6t1tx5x.gz
+C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\b8s2297hmk-34druw8f79.gz
+C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\h9ovt1dqwq-kmkvkvhhv2.gz
+C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\a0n89qdww1-ihgow00lrh.gz
+C:\Users\milky\Desktop\myBlazorApp\obj\Release\net9.0\compressed\ljnw7f3f3u-ihgow00lrh.gz

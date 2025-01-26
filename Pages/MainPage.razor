@@ -1,8 +1,56 @@
 @page "/main"
 @layout LogoHeader
+@inject IJSRuntime JSRuntime
+@inject SupabaseInterop Supabase
 
 <link href="MainPage.razor.css" rel="stylesheet" />
 <div class="icon-container">
     <span class="material-symbols-outlined">add</span>
     <span class="material-symbols-outlined">menu</span>
 </div>
+<div class="post-container">
+    @for (int i = 0; i <postCount; i++)
+    {
+        <div class="post-box">
+            <div class="name-date">
+                <h3>misha</h3>
+                <p class="timestamp">timestamp</p>
+            </div>
+            <p class="content">what wjvb fmb vfsk vbsdvf xhr jdt ccyty ccyty gckc fbd hte name tyndn aegrth tesrbtn rebr return return script _framework s</p>
+            <p class="see-more">see more.</p>
+        </div>
+    }
+</div>
+
+@code {
+
+    private async Task GetData()
+    {
+        var result = await Supabase.GetDataAsync();
+        Console.WriteLine(result);
+    }
+    private int postCount = 10; // Default to 10 posts for mobile
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            try
+            {
+                // Call JavaScript function and get screen width
+                int screenWidth = await JSRuntime.InvokeAsync<int>("getScreenWidth");
+                Console.WriteLine($"screen width is: {screenWidth}");
+
+                // Update postCount based on screen width
+                postCount = screenWidth >= 1024 ? 40 : 10;
+
+                // Trigger a re-render
+                StateHasChanged();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error getting screen width: {ex.Message}");
+            }
+        }
+    }
+}
