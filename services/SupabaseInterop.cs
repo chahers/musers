@@ -10,15 +10,13 @@ public class SupabaseInterop
         _jsRuntime = jsRuntime;
     }
 
-    public async Task<string> GetDataAsync()
+    public async Task<string> GetTableData(string table, int limit, int offset)
     {
-        return await _jsRuntime.InvokeAsync<string>("supabase.from('posts').select('*').execute()");
+        return await _jsRuntime.InvokeAsync<string>("getTableData", table, limit, offset);
     }
 
-    public async Task InsertDataAsync(string table, object data)
+    public async Task InsertData(string table, object row)
     {
-        await _jsRuntime.InvokeVoidAsync("supabase.from(table).insert(data).execute()");
+        await _jsRuntime.InvokeVoidAsync("insertData", table, row);
     }
-
-    // More methods can be added as needed
 }

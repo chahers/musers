@@ -1,4 +1,5 @@
 @page "/main"
+@using System.Text.Json
 @layout LogoHeader
 @inject IJSRuntime JSRuntime
 @inject SupabaseInterop Supabase
@@ -8,49 +9,67 @@
     <span class="material-symbols-outlined">add</span>
     <span class="material-symbols-outlined">menu</span>
 </div>
+
 <div class="post-container">
-    @for (int i = 0; i <postCount; i++)
+    @if (posts != null && posts.Any())
     {
-        <div class="post-box">
-            <div class="name-date">
-                <h3>misha</h3>
-                <p class="timestamp">timestamp</p>
+        @for (int i = 0; i < posts.Count; i++)
+        {
+            var post = posts[i];
+            <div class="post-box">
+                <div class="name-date">
+                    <h3>@post.Author</h3>
+                    <p class="timestamp">@post.Timestamp.ToString("yyyy-MM-dd HH:mm:ss")</p>
+                </div>
+                <p class="content">@post.Content</p>
+                <p class="see-more">see more.</p>
             </div>
-            <p class="content">what wjvb fmb vfsk vbsdvf xhr jdt ccyty ccyty gckc fbd hte name tyndn aegrth tesrbtn rebr return return script _framework s</p>
-            <p class="see-more">see more.</p>
-        </div>
+        }
+    }
+    else
+    {
+        <p class="loading">Loading posts...</p>
     }
 </div>
 
 @code {
-
-    private async Task GetData()
-    {
-        var result = await Supabase.GetDataAsync();
-        Console.WriteLine(result);
-    }
     private int postCount = 10; // Default to 10 posts for mobile
+    private List<Post> posts;
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
             try
             {
-                // Call JavaScript function and get screen width
+                // Get screen width to determine post count
                 int screenWidth = await JSRuntime.InvokeAsync<int>("getScreenWidth");
                 Console.WriteLine($"screen width is: {screenWidth}");
 
-                // Update postCount based on screen width
-                postCount = screenWidth >= 1024 ? 40 : 10;
+                postCount = screenWidth >= 1024 ? 11 : 10;
 
-                // Trigger a re-render
+                // Fetch posts from Supabase
+                int offset = 0; // Start from the first post (adjust this if implementing pagination)
+                var jsonString = await Supabase.GetTableData("posts", postCount, offset);
+
+                // Deserialize the JSON response into the posts list
+                posts = JsonSerializer.Deserialize<List<Post>>(jsonString);
+                posts.Reverse();
+                // Trigger re-render once posts are loaded
                 StateHasChanged();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error getting screen width: {ex.Message}");
+                Console.WriteLine($"Error fetching posts: {ex.Message}");
             }
         }
+    }
+
+    public class Post
+    {
+        public int Id { get; set; }
+        public string Author { get; set; }
+        public string Content { get; set; }
+        public DateTime Timestamp { get; set; }
     }
 }
