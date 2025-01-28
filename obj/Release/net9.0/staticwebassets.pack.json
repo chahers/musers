@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\js\\custom.js"
     },
     {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\js\\supabase.js",
+      "PackagePath": "staticwebassets\\js\\supabase.js"
+    },
+    {
       "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

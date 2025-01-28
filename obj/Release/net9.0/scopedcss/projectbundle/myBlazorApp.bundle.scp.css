@@ -71,6 +71,25 @@ main[b-9z70pmoqz7] {
     overflow-x: hidden;
 }
 
+.loading[b-b3jrwhqjft] {
+    padding-top: 30vh;
+    justify-self: center;
+    color: #2A5496;
+    -webkit-text-stroke: 1px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 35px;
+    animation: fade-in-b-b3jrwhqjft 2s;
+}
+
+@keyframes fade-in-b-b3jrwhqjft {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .post-box[b-b3jrwhqjft] {
     background-color: #F7F4EB;
     /* border: 1px solid #ddd; */

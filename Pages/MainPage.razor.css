@@ -3,8 +3,10 @@
     top: -50;
     right: 0;
     gap: 15px;
-    padding: 30px;
+    padding: 35px 30px 10px 120px;
     position: fixed;
+    background-color: #F2EDE1;
+    z-index: 100;
 }
 
 .material-symbols-outlined {
@@ -20,6 +22,7 @@
     padding: 30px 15px;
     margin-top: 60px;
     overflow-x: hidden;
+    z-index: 3;
 }
 
 .loading {
@@ -93,6 +96,29 @@ h3 {
     transform: translateY(-5px); 
 }
 
+.popup-overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    background-color: #F2EDE1;
+    align-items: center;
+    justify-content: center;
+    grid-column: auto;
+}
+
+.popup-container {
+    padding: 80px 0;
+}
+
+.create-container {
+    background-color: #F7F4EB;
+    height: 60vh;
+    border-radius: 8px;
+    padding: 5px 15px 0 15px;
+    margin: 20px;
+}
+
 @media (max-width: 641px) {
     .icon-container {
         padding-top: 70px;
@@ -107,5 +133,8 @@ h3 {
     }
     .post-box {
         width: 90%;
+    }
+    .popup-container {
+        padding: 115px 0;
     }
 }

@@ -6,9 +6,38 @@
 
 <link href="MainPage.razor.css" rel="stylesheet" />
 <div class="icon-container">
-    <span class="material-symbols-outlined">add</span>
-    <span class="material-symbols-outlined">menu</span>
+    <span class="material-symbols-outlined" @onclick="() => OpenPopup(PopupType.CreatePost)">add</span>
+    <span class="material-symbols-outlined" @onclick="() => OpenPopup(PopupType.Menu)">menu</span>
 </div>
+
+@if (activePopup != null)
+{
+    <div class="popup-overlay">
+        <div class="popup-container" @onclick:stopPropagation="true" @onscroll:stopPropagation="true">
+            @if (activePopup == PopupType.CreatePost)
+            {
+                <div class="create-container">
+                    <div class="name-date">
+                        <h3>name</h3>
+                        <p>timestamp</p>
+                    </div>
+                    <p>the texts go over here.</p>
+                    <p @onclick="ClosePopup">submit.</p>
+                </div>
+            }
+            else if (activePopup == PopupType.Menu)
+            {
+                //
+            }
+            
+        </div>
+    </div>
+}
+
+@* @if (isMenuOpen)
+{
+
+} *@
 
 <div class="post-container">
     @if (posts != null && posts.Any())
@@ -71,5 +100,23 @@
         public string Author { get; set; }
         public string Content { get; set; }
         public DateTime Timestamp { get; set; }
+    }
+
+    private enum PopupType
+    {
+        Menu,
+        CreatePost
+    }
+
+    private PopupType? activePopup = null;
+
+    private void OpenPopup(PopupType type)
+    {
+        activePopup = type;
+    }
+
+    private void ClosePopup()
+    {
+        activePopup = null;
     }
 }
