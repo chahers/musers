@@ -62,7 +62,7 @@
     opacity: 0;
     animation: fade-in-b-c7uqg4m7ca 1s forwards 0.5s;
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
 }

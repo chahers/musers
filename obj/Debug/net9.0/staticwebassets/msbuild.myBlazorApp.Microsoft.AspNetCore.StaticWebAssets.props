@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9ck5sutxar</Fingerprint>
-      <Integrity>OdrBZcDpXRMNt50mET4awthStLQFMCyK6YEJe+ByIf8=</Integrity>
+      <Fingerprint>cwvn1pyhts</Fingerprint>
+      <Integrity>PAa0RtggC+lcEWWnBW6eZdrXzixPy7hLYILbfN1Hiok=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\supabase.js'))</OriginalItemSpec>
@@ -912,8 +912,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>u6iyk2y3mv</Fingerprint>
-      <Integrity>lkzbB2FtwOwPxGGVwXveo5yshoAOpsfHWEVIQFthfsA=</Integrity>
+      <Fingerprint>283luat3fy</Fingerprint>
+      <Integrity>ktmAMphRZhAZXw8hO3r9CtY74mXlgCajM/ej+rHEmjY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\myBlazorApp.styles.css'))</OriginalItemSpec>

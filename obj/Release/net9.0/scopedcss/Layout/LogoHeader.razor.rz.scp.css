@@ -12,6 +12,8 @@
     align-items: center;
     z-index: 1000;
     top: 0;
+    background-color: #F2EDE1;
+    width: 70vw;
 }
 
 .muserstext[b-9z70pmoqz7] {
@@ -42,6 +44,6 @@ main[b-9z70pmoqz7] {
 
 @media (max-width: 641px) {
     .theheader[b-9z70pmoqz7] {
-        padding-top: 45px;
+        padding: 30px 0 15px 0;
     }
 }

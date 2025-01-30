@@ -44,6 +44,6 @@ main {
 
 @media (max-width: 641px) {
     .theheader {
-        padding-top: 45px;
+        padding: 30px 0 15px 0;
     }
 }

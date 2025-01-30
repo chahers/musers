@@ -45,22 +45,22 @@ main[b-9z70pmoqz7] {
 
 @media (max-width: 641px) {
     .theheader[b-9z70pmoqz7] {
-        padding-top: 45px;
+        padding: 30px 0 15px 0;
     }
 }
 /* /Pages/MainPage.razor.rz.scp.css */
 .icon-container[b-b3jrwhqjft] {
     display: flex;
-    top: -50;
+    /* top: -40; */
     right: 0;
     gap: 15px;
-    padding: 35px 30px 10px 120px;
+    padding: 25px 30px 25px 500px;
     position: fixed;
     background-color: #F2EDE1;
     z-index: 100;
 }
 
-.material-symbols-outlined[b-b3jrwhqjft] {
+.main-icon[b-b3jrwhqjft] {
     color: #2A5496;
     font-size: 30px; 
     cursor: pointer;
@@ -98,12 +98,17 @@ main[b-9z70pmoqz7] {
 .post-box[b-b3jrwhqjft] {
     background-color: #F7F4EB;
     /* border: 1px solid #ddd; */
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 5px 15px 0 15px;
     box-shadow: 0 4px 6px rgba(42, 84, 150, 0.1);
     transition: transform 0.2s;
     margin: 0 auto;
     width: 100%;
+    height: 250px; 
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .name-date[b-b3jrwhqjft] {
@@ -112,7 +117,7 @@ main[b-9z70pmoqz7] {
     align-items: center;
 }
 
-h3[b-b3jrwhqjft] {
+.author[b-b3jrwhqjft] {
     color: #2A5496;
     -webkit-text-stroke: 0.3px #2A5496;
     font-family: 'Bodoni Moda';
@@ -120,7 +125,7 @@ h3[b-b3jrwhqjft] {
 }
 
 .timestamp[b-b3jrwhqjft] {
-    padding-top: 5px;
+    padding-top: 10px;
     color: #73706A;
     font-family: 'Bodoni Moda';
     font-size: 15px;
@@ -130,8 +135,17 @@ h3[b-b3jrwhqjft] {
     color: #73706A;
     font-family: 'Bodoni Moda';
     font-size: 18px;
-    padding-top: 10px;
-    max-width: inherit;
+    padding: 10px 0 35px 0;
+    max-width: calc(inherit - 5px);
+    flex-grow: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 5; /* Adjust this number to control how many lines are shown */
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    height: auto;
 }
 
 .see-more[b-b3jrwhqjft] {
@@ -140,7 +154,11 @@ h3[b-b3jrwhqjft] {
     font-family: 'Bodoni Moda';
     font-size: 15px;
     cursor: pointer;
-    width: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    padding: 8px 70% 3px 0 ;
+    background-color: #F7F4EB;
 }
 
 .post-box:hover[b-b3jrwhqjft] {
@@ -164,15 +182,70 @@ h3[b-b3jrwhqjft] {
 
 .create-container[b-b3jrwhqjft] {
     background-color: #F7F4EB;
-    height: 60vh;
-    border-radius: 8px;
-    padding: 5px 15px 0 15px;
+    height: 40vh;
+    border-radius: 20px;
+    padding: 5px 0 0 15px;
     margin: 20px;
+    width: 90vw;
+    max-width: 700px;
+    justify-self: center;
+}
+
+.content-input[b-b3jrwhqjft] {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    color: #73706A;
+    font-family: 'Bodoni Moda';
+    font-size: 18px; 
+    padding: 0;
+}
+
+.author-input[b-b3jrwhqjft] {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    color: #2A5496;
+    -webkit-text-stroke: 0.3px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 22px; /* Make text invisible */
+    padding: 0;
+}
+
+.submit[b-b3jrwhqjft] {
+    color:#2A5496;
+    -webkit-text-stroke: 0.25px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.close-button[b-b3jrwhqjft] {
+    position: fixed;
+    top: 25px;
+    right: 30px;
+    color: #2A5496;
+    font-size: 30px; 
+    cursor: pointer;
+}
+
+.menu-container[b-b3jrwhqjft] {
+    justify-items: center;
+    display: grid;
+    gap: 10px;
+    margin-top: 20vh;
+}
+
+.menu-items[b-b3jrwhqjft] {
+    color: #2A5496;
+    -webkit-text-stroke: 1px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 35px;
 }
 
 @media (max-width: 641px) {
     .icon-container[b-b3jrwhqjft] {
-        padding-top: 70px;
+        padding-top: 55px;
     }
     .post-container[b-b3jrwhqjft] {
         grid-template-columns: 1fr;
@@ -185,8 +258,17 @@ h3[b-b3jrwhqjft] {
     .post-box[b-b3jrwhqjft] {
         width: 90%;
     }
+    .see-more[b-b3jrwhqjft] {
+        padding: 8px 73% 3px 0 ;
+    }
     .popup-container[b-b3jrwhqjft] {
         padding: 115px 0;
+    }
+    .close-button[b-b3jrwhqjft] {
+        top: 55px;
+    }
+    .create-container[b-b3jrwhqjft]{
+        width: 90vw;
     }
 }
 /* /Pages/Welcome.razor.rz.scp.css */
@@ -254,7 +336,7 @@ h3[b-b3jrwhqjft] {
     opacity: 0;
     animation: fade-in-b-c7uqg4m7ca 1s forwards 0.5s;
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
 }

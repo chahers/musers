@@ -7,6 +7,8 @@ window.getTableData = async function (table, limit, offset) {
         const { data, error } = await supabaseClient
             .from(table)
             .select('*')
+            .eq('state', 'approved')
+            .order('timestamp', { ascending: false })
             .limit(limit)
             .range(offset, offset + limit - 1);
 
