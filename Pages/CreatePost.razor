@@ -1,0 +1,74 @@
+@using myBlazorApp.Models
+@inject IJSRuntime JSRuntime
+@inject SupabaseInterop Supabase
+
+<div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
+    <div class="details-container">
+        <div class="name-date">
+            <input class="author-input "type="text" placeholder="name." @bind="NameInput" @bind:event="oninput" maxlength="15"/>
+            <p></p>
+        </div>
+        <textarea class="content-input"_framework placeholder="write your thoughts here." @bind="ContentInput" @bind:event="oninput" maxlength="250"></textarea>
+
+        <p class="submit" @onclick="SubmitPost">submit.</p>
+    </div>
+    <div class="counter-container">
+        @if (!string.IsNullOrEmpty(NameInput) && @NameInput.Length != 15)
+        {
+            <span class="char-count">name has @NameInput.Length characters.</span>
+        }
+        @if(@NameInput.Length == 15)
+        {
+            <span class="char-count">name has reached limit of 15 characters.</span>
+        }
+        @if (!string.IsNullOrEmpty(ContentInput) && @ContentInput.Length != 250)
+        {
+            <span class="char-count">content has @ContentInput.Length characters.</span>
+        }
+        @if (@ContentInput.Length ==250)
+        {
+            <span class="char-count">content has reached limit of 250 characters</span>
+        }
+</div>
+
+@code {
+    private string NameInput { get; set; } = "";
+    private string ContentInput { get; set; } = "";
+
+    [Parameter] public EventCallback ClosePopup { get; set; }
+    private async Task SubmitPost()
+    {
+        if (string.IsNullOrWhiteSpace(NameInput) || string.IsNullOrWhiteSpace(ContentInput))
+        {
+            Console.WriteLine("Name and Content cannot be empty.");
+            return;
+        }
+
+        var post = new
+        {
+            author = NameInput,
+            content = ContentInput,
+            state = "approved",
+            timestamp = DateTime.Now
+        };
+
+        try
+        {
+            // You can call JSRuntime or your data logic here
+            await JSRuntime.InvokeVoidAsync("insertData", "posts", post);
+            Console.WriteLine("Posted!");
+
+            // Clear the inputs after submission
+            NameInput = "";
+            ContentInput = "";
+
+            // Close the popup
+            await ClosePopup.InvokeAsync();
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error posting data: {ex.Message}");
+        }
+    }
+}

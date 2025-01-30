@@ -1,0 +1,15 @@
+@using myBlazorApp.Models
+
+<div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
+<div class="details-container">
+    <div class="name-date">
+        <h3 class="author-input">@SelectedPost.Author</h3>
+        <p class="timestamp details">@SelectedPost.Timestamp.ToString("dd/MM HH:mm")</p>
+    </div>
+    <p class="content-input">@SelectedPost.Content</p>
+</div>
+
+@code {
+    [Parameter] public Post SelectedPost { get; set; }
+    [Parameter] public EventCallback ClosePopup { get; set; }
+}

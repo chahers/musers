@@ -1,10 +1,10 @@
 @page "/main"
 @using System.Text.Json
+@using myBlazorApp.Models
 @layout LogoHeader
 @inject IJSRuntime JSRuntime
 @inject SupabaseInterop Supabase
 
-<link href="MainPage.razor.css" rel="stylesheet" />
 <div class="icon-container">
     <span class="material-symbols-outlined main-icon" @onclick="() => OpenPopup(PopupType.CreatePost)">add</span>
     <span class="material-symbols-outlined main-icon" @onclick="() => OpenPopup(PopupType.Menu)">menu</span>
@@ -16,26 +16,15 @@
         <div class="popup-container" @onclick:stopPropagation="true" @onscroll:stopPropagation="true">
             @if (activePopup == PopupType.CreatePost)
             {
-                <div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
-                <div class="create-container">
-                    <div class="name-date">
-                        <input class="author-input "type="text" placeholder="name." @bind="NameInput"/>
-                        <p></p>
-                    </div>
-                    <textarea class="content-input"_framework placeholder="Write something..." @bind="ContentInput"></textarea>
-
-                    <p class="submit" @onclick="SubmitPost">submit.</p>
-                </div>
+                <CreatePost ClosePopup="ClosePopup"/>
             }
             else if (activePopup == PopupType.Menu)
             {
-                <div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
-                <div class="menu-container">
-                    <h3 class="menu-items">search posts.</h3>
-                    <h3 class="menu-items">help & support.</h3>
-                    <h3 class="menu-items">terms & conditions.</h3>
-                    <h3 class="menu-items">about.</h3>
-                </div>
+                <MenuPopup ClosePopup="ClosePopup" />
+            }
+            else if (activePopup == PopupType.PostDetails)
+            {
+                <PostDetails SelectedPost="@SelectedPost" ClosePopup="ClosePopup" />
             }
             
         </div>
@@ -54,7 +43,7 @@
                     <p class="timestamp">@post.Timestamp.ToString("dd/MM HH:mm")</p>
                 </div>
                 <p class="content">@post.Content</p>
-                <p class="see-more">see more.</p>
+                <p class="see-more" @onclick="() => OpenPost(post)">see more.</p>
             </div>
         }
     }
@@ -96,24 +85,19 @@
             }
         }
     }
-
-    public class Post
-    {
-        public int Id { get; set; }
-        public string Author { get; set; }
-        public string Content { get; set; }
-        public DateTime Timestamp { get; set; }
-    }
-
     private enum PopupType
     {
         Menu,
         CreatePost,
+        PostDetails,
         SearchPosts,
+        Notifications,
         HelpSupport,
         TermsConditions,
         About
     }
+
+    private Post SelectedPost { get; set; }
 
     private PopupType? activePopup = null;
 
@@ -122,36 +106,16 @@
         activePopup = type;
     }
 
+    private void OpenPost(Post mypost)
+    {
+        activePopup = PopupType.PostDetails;
+        SelectedPost = mypost;
+    }
+
     private void ClosePopup()
     {
         activePopup = null;
     }
 
-    private string NameInput { get; set; } = "";
-    private string ContentInput { get; set; } = "";
-
-    private async Task SubmitPost()
-    {
-        if (string.IsNullOrWhiteSpace(NameInput) || string.IsNullOrWhiteSpace(ContentInput))
-        {
-            Console.WriteLine("Name and Content cannot be empty.");
-            return;
-        }
-
-        var post = new
-        {
-            author = NameInput,
-            content = ContentInput,
-            state = "approved",
-            timestamp = DateTime.Now
-        };
-
-        // Call JavaScript function to insert data
-        await JSRuntime.InvokeVoidAsync("insertData", "posts", post);
-
-        // Clear input fields after submission
-        NameInput = "";
-        ContentInput = "";
-    }
     
 }
