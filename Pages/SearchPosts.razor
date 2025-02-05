@@ -1,12 +1,48 @@
 @using myBlazorApp.Models
+@inject SessionService Session
+@inject IJSRuntime JSRuntime
+@using System.Text.Json
 
 <div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
 <div class="menu-container">
     <span class="search-post">search posts.</span>
-    <input class="searchbar" type="text" placeholder="type here."/>
-    <span class="submit">submit.</span>
+    <input class="searchbar" type="text" @bind="SearchInput" @bind:event="oninput" placeholder="type here."/>
+    <span class="submit" @onclick="setSearchQuery">submit.</span>
 </div>
 
 @code {
     [Parameter] public EventCallback returnToMenu { get; set; }
+    [Parameter] public Action<PopupType>? OpenPopup { get; set; }
+    [Parameter] public PopupType activePopup { get; set; }
+    private string SearchInput { get; set; } = "";
+    private async Task setSearchQuery()
+    {
+        Session.SearchQuery = SearchInput;
+        Console.WriteLine("Searching: " + @Session.SearchQuery);
+        await Search();
+        OpenPopup?.Invoke(PopupType.SearchResults);
+    }
+
+    private List<Post> Posts = new();
+    private async Task Search()
+    {
+        try
+        {
+            if (string.IsNullOrWhiteSpace(@Session.SearchQuery))
+                return;
+
+            var jsonData = await JSRuntime.InvokeAsync<string>("searchPosts", "posts", @Session.SearchQuery, 10, 0);
+            if (!string.IsNullOrEmpty(jsonData))
+            {
+                Posts = JsonSerializer.Deserialize<List<Post>>(jsonData, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
+                Session.SearchedPosts = Posts;
+                Console.WriteLine(Session.SearchedPosts);
+            }
+
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error searching posts: {e.Message}");
+        }
+    }
 }

@@ -246,21 +246,20 @@
 }
 
 .searchbar {
-    color:#2A5496;
-    -webkit-text-stroke: 0.5px #2A5496;
+    color:#73706A;
+    -webkit-text-stroke: 0.5px #73706A;
     font-family: 'Bodoni Moda';
     height: 40px;
     font-size: 20px;
     border-radius: 20px;
-    width:fit-content;
+    width: 270px;
     text-align: center;
     background-color: #F7F4EB;
     border-color: transparent;
 }
 
 .searchbar::placeholder {
-    color: #73706A;
-    -webkit-text-stroke: 0.5px #73706A;
+    opacity: 0.4;
 }
 
 @media (max-width: 641px) {

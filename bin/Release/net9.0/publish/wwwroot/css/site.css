@@ -3,7 +3,7 @@
     /* top: -40; */
     right: 0;
     gap: 15px;
-    padding: 25px 30px 35px 500px;
+    padding: 25px 30px 27px 500px;
     position: fixed;
     background-color: #F2EDE1;
     z-index: 100;
@@ -139,6 +139,7 @@
     border-radius: 20px;
     padding: 5px 0 0 15px;
     margin: 20px;
+    margin-top: 5vh;
     width: 90vw;
     max-width: 700px;
     justify-self: center;
@@ -172,6 +173,11 @@
     width: calc(100% - 15px);
     max-width: 650px;
     padding-bottom: 20px;
+}
+
+.content-input.create{
+    height: 26vh;
+    max-height: 250px;
 }
 
 .content-input::placeholder {
@@ -215,7 +221,9 @@
     justify-items: center;
     display: grid;
     gap: 10px;
-    margin-top: 20vh;
+    width: max-content;
+    justify-self: center;
+    margin-top: 17vh;
 }
 
 .menu-items {
@@ -223,11 +231,42 @@
     -webkit-text-stroke: 1px #2A5496;
     font-family: 'Bodoni Moda';
     font-size: 35px;
+    cursor: pointer;
+}
+
+.search-post {
+    color: #2A5496;
+    -webkit-text-stroke: 1px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 35px;
+    justify-self: center;
+    align-self: center;
+    width: max-content;
+    margin-top: 5vh;
+}
+
+.searchbar {
+    color:#2A5496;
+    -webkit-text-stroke: 0.5px #2A5496;
+    font-family: 'Bodoni Moda';
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    width:fit-content;
+    text-align: center;
+    background-color: #F7F4EB;
+    border-color: transparent;
+}
+
+.searchbar::placeholder {
+    color: #73706A;
+    -webkit-text-stroke: 0.5px #73706A;
 }
 
 @media (max-width: 641px) {
     .icon-container {
         padding-top: 55px;
+        padding-bottom: 32px;
     }
     .post-container {
         grid-template-columns: 1fr;
@@ -241,7 +280,7 @@
         width: 90%;
     }
     .see-more {
-        padding: 25px 73% 3px 0 ;
+        padding: 25px 74.5% 3px 0 ;
     }
     .popup-container {
         padding: 115px 0;
@@ -251,5 +290,8 @@
     }
     .create-container{
         width: 90vw;
+    }
+    .content-input.create{
+        height: 70vw;
     }
 }

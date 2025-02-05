@@ -1,0 +1,35 @@
+@using myBlazorApp.Models
+@inject IJSRuntime JSRuntime
+@using System.Text.Json
+@inject SessionService Session
+@page "/search"
+
+<div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+<div class="post-container">
+    @if (@Session.SearchedPosts != null && @Session.SearchedPosts.Any())
+    {
+        @for (int i = 0; i < @Session.SearchedPosts.Count; i++)
+        {
+            var post = @Session.SearchedPosts[i];
+            <div class="post-box">
+                <div class="name-date">
+                    <h3 class="author">@post.Author</h3>
+                    <p class="timestamp">@post.Timestamp.ToString("dd/MM HH:mm")</p>
+                </div>
+                <p class="content">@post.Content</p>
+                <p class="see-more" @onclick="() => OpenPost?.Invoke(post)">see more.</p>
+            </div>
+        }
+    }
+    else
+    {
+        <p class="loading">Loading posts...</p>
+    }
+</div>
+
+@code {
+
+    [Parameter] public EventCallback returnToMenu { get; set; }
+    [Parameter] public Action<Post>? OpenPost { get; set; }
+
+}

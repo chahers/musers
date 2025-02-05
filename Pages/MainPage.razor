@@ -4,6 +4,7 @@
 @layout LogoHeader
 @inject IJSRuntime JSRuntime
 @inject SupabaseInterop Supabase
+@inject NavigationManager Navigation
 
 <div class="icon-container">
     <span class="material-symbols-outlined main-icon" @onclick="() => OpenPopup(PopupType.CreatePost)">add</span>
@@ -28,27 +29,28 @@
             }
             else if (activePopup == PopupType.SearchPosts)
             {
-                <SearchPosts returnToMenu="returnToMenu"/>
+                <SearchPosts returnToMenu="returnToMenu" OpenPopup="OpenPopup" activePopup="@activePopup"/>
             }
             else if (activePopup == PopupType.SearchResults)
             {
-
+                Navigation.NavigateTo("/search");
+                
             }
             else if (activePopup == PopupType.Notifications)
             {
-
+                <Notifications returnToMenu="returnToMenu"/>
             }
             else if (activePopup == PopupType.HelpSupport)
             {
-
+                <HelpSupport returnToMenu="returnToMenu"/>
             }
             else if (activePopup == PopupType.TermsConditions)
             {
-
+                <TermsConditions returnToMenu="returnToMenu"/>
             }
             else if (activePopup == PopupType.About)
             {
-                
+                <About returnToMenu="returnToMenu"/>
             }
             
         </div>
@@ -94,7 +96,7 @@ else{
                 int screenWidth = await JSRuntime.InvokeAsync<int>("getScreenWidth");
                 Console.WriteLine($"screen width is: {screenWidth}");
 
-                postCount = screenWidth >= 1024 ? 30 : 10;
+                postCount = screenWidth >= 1024 ? 12 : 10;
 
                 // Fetch posts from Supabase
                 int offset = 0; // Start from the first post (adjust this if implementing pagination)

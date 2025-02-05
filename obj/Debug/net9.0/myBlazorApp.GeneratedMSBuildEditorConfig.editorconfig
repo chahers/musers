@@ -28,8 +28,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/milky/Desktop/myBlazorApp/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/milky/Desktop/myBlazorApp/Pages/CreatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milky/Desktop/myBlazorApp/Pages/HelpSupport.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVscFN1cHBvcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/milky/Desktop/myBlazorApp/Pages/MainPage.razor]
@@ -40,12 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVudVBvcHVwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/milky/Desktop/myBlazorApp/Pages/Notifications.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZpY2F0aW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/milky/Desktop/myBlazorApp/Pages/PostDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/milky/Desktop/myBlazorApp/Pages/SearchPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUG9zdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milky/Desktop/myBlazorApp/Pages/SearchResults.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/milky/Desktop/myBlazorApp/Pages/TermsConditions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybXNDb25kaXRpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/milky/Desktop/myBlazorApp/_Imports.razor]
