@@ -2,9 +2,10 @@
 @inject IJSRuntime JSRuntime
 @using System.Text.Json
 @inject SessionService Session
-@page "/search"
 
-<div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+<div class="close-container">
+    <div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+</div>
 <div class="post-container">
     @if (@Session.SearchedPosts != null && @Session.SearchedPosts.Any())
     {
@@ -17,7 +18,7 @@
                     <p class="timestamp">@post.Timestamp.ToString("dd/MM HH:mm")</p>
                 </div>
                 <p class="content">@post.Content</p>
-                <p class="see-more" @onclick="() => OpenPost?.Invoke(post)">see more.</p>
+                <p class="see-more" @onclick="() => HandlePostClick(post)">see more.</p>
             </div>
         }
     }
@@ -31,5 +32,13 @@
 
     [Parameter] public EventCallback returnToMenu { get; set; }
     [Parameter] public Action<Post>? OpenPost { get; set; }
+    [Parameter] public Action<PopupType>? OpenPopup { get; set; }
+
+    private void HandlePostClick(Post post)
+    {
+        OpenPopup?.Invoke(PopupType.PostDetails);
+        OpenPost?.Invoke(post);
+        Console.WriteLine(post);
+    }
 
 }

@@ -1,6 +1,8 @@
 @using myBlazorApp.Models
 
-<div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+<div class="close-container">
+    <div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+</div>
 
 @code {
     [Parameter] public EventCallback returnToMenu { get; set; }

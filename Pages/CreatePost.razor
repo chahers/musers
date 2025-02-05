@@ -2,7 +2,8 @@
 @inject IJSRuntime JSRuntime
 @inject SupabaseInterop Supabase
 
-<div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
+<div class="close-container">
+<div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div></div>
     <div class="details-container">
         <div class="name-date">
             <input class="author-input" type="text" placeholder="name." @bind="NameInput" @bind:event="oninput" maxlength="15"/>

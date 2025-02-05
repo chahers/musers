@@ -13,8 +13,9 @@
 
 @if (activePopup != PopupType.Main)
 {
+    
     <div class="popup-overlay">
-        <div class="popup-container" @onclick:stopPropagation="true" @onscroll:stopPropagation="true">
+        <div class="popup-container">
             @if (activePopup == PopupType.CreatePost)
             {
                 <CreatePost ClosePopup="ClosePopup"/>
@@ -33,8 +34,7 @@
             }
             else if (activePopup == PopupType.SearchResults)
             {
-                Navigation.NavigateTo("/search");
-                
+                <SearchResults returnToMenu="returnToMenu" OpenPost="OpenPost" OpenPopup="OpenPopup"/>
             }
             else if (activePopup == PopupType.Notifications)
             {
@@ -56,6 +56,7 @@
         </div>
     </div>
 }
+
 else{
     activePopup = PopupType.Main;
 }

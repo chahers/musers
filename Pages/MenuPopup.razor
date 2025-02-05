@@ -1,6 +1,7 @@
 @using myBlazorApp.Models
 
-<div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
+<div class="close-container"><div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div></div>
+
 <div class="menu-container">
     <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.SearchPosts)'>search posts.</h3>
     <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.Notifications)'>notifications.</h3>

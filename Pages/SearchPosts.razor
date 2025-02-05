@@ -3,7 +3,9 @@
 @inject IJSRuntime JSRuntime
 @using System.Text.Json
 
-<div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+<div class="close-container">
+    <div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+</div>
 <div class="menu-container">
     <span class="search-post">search posts.</span>
     <input class="searchbar" type="text" @bind="SearchInput" @bind:event="oninput" placeholder="type here."/>
@@ -18,7 +20,6 @@
     private async Task setSearchQuery()
     {
         Session.SearchQuery = SearchInput;
-        Console.WriteLine("Searching: " + @Session.SearchQuery);
         await Search();
         OpenPopup?.Invoke(PopupType.SearchResults);
     }
