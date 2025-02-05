@@ -10,7 +10,7 @@
     <span class="material-symbols-outlined main-icon" @onclick="() => OpenPopup(PopupType.Menu)">menu</span>
 </div>
 
-@if (activePopup != null)
+@if (activePopup != PopupType.Main)
 {
     <div class="popup-overlay">
         <div class="popup-container" @onclick:stopPropagation="true" @onscroll:stopPropagation="true">
@@ -20,15 +20,22 @@
             }
             else if (activePopup == PopupType.Menu)
             {
-                <MenuPopup ClosePopup="ClosePopup" />
+                <MenuPopup ClosePopup="ClosePopup" OpenPopup="OpenPopup" activePopup="@activePopup"/>
             }
             else if (activePopup == PopupType.PostDetails)
             {
                 <PostDetails SelectedPost="@SelectedPost" ClosePopup="ClosePopup" />
             }
+            else if (activePopup == PopupType.SearchPosts)
+            {
+                <SearchPosts ClosePopup="ClosePopup"/>
+            }
             
         </div>
     </div>
+}
+else{
+    activePopup = PopupType.Main;
 }
 
 <div class="post-container">
@@ -85,25 +92,15 @@
             }
         }
     }
-    private enum PopupType
-    {
-        Menu,
-        CreatePost,
-        PostDetails,
-        SearchPosts,
-        Notifications,
-        HelpSupport,
-        TermsConditions,
-        About
-    }
-
     private Post SelectedPost { get; set; }
 
-    private PopupType? activePopup = null;
+    private PopupType activePopup = PopupType.Main;
 
     private void OpenPopup(PopupType type)
     {
         activePopup = type;
+        Console.WriteLine($"Page: {activePopup}");
+        StateHasChanged();
     }
 
     private void OpenPost(Post mypost)
@@ -114,7 +111,7 @@
 
     private void ClosePopup()
     {
-        activePopup = null;
+        activePopup = PopupType.Main;
     }
 
     

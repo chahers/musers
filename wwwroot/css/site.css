@@ -3,7 +3,7 @@
     /* top: -40; */
     right: 0;
     gap: 15px;
-    padding: 25px 30px 35px 500px;
+    padding: 25px 30px 27px 500px;
     position: fixed;
     background-color: #F2EDE1;
     z-index: 100;
@@ -223,11 +223,25 @@
     -webkit-text-stroke: 1px #2A5496;
     font-family: 'Bodoni Moda';
     font-size: 35px;
+    cursor: pointer;
+}
+
+.search-post {
+    color: #2A5496;
+    -webkit-text-stroke: 1px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 35px;
+}
+
+.searchbar {
+    color:#F2EDE1;
+    border-radius: 20px;
 }
 
 @media (max-width: 641px) {
     .icon-container {
         padding-top: 55px;
+        padding-bottom: 32px;
     }
     .post-container {
         grid-template-columns: 1fr;
@@ -241,7 +255,7 @@
         width: 90%;
     }
     .see-more {
-        padding: 25px 73% 3px 0 ;
+        padding: 25px 74.5% 3px 0 ;
     }
     .popup-container {
         padding: 115px 0;

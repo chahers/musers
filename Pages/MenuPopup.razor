@@ -1,13 +1,17 @@
+@using myBlazorApp.Models
 
 <div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
-    <div class="menu-container">
-        <h3 class="menu-items">search posts.</h3>
-        <h3 class="menu-items">notifications.</h3>
-        <h3 class="menu-items">help & support.</h3>
-        <h3 class="menu-items">terms & conditions.</h3>
-        <h3 class="menu-items">about.</h3>
+<div class="menu-container">
+    <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.SearchPosts)'>search posts.</h3>
+    <h3 class="menu-items">notifications.</h3>
+    <h3 class="menu-items">help & support.</h3>
+    <h3 class="menu-items">terms & conditions.</h3>
+    <h3 class="menu-items">about.</h3>
 </div>
 
 @code {
     [Parameter] public EventCallback ClosePopup { get; set; }
+    [Parameter] public Action<PopupType>? OpenPopup { get; set; }
+    [Parameter] public PopupType activePopup { get; set; }
+
 }
