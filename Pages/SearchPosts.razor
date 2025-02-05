@@ -1,11 +1,12 @@
 @using myBlazorApp.Models
 
-<div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
-<div class="details-container">
+<div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+<div class="menu-container">
     <span class="search-post">search posts.</span>
     <input class="searchbar" type="text" placeholder="type here."/>
+    <span class="submit">submit.</span>
 </div>
 
 @code {
-    [Parameter] public EventCallback ClosePopup { get; set; }
+    [Parameter] public EventCallback returnToMenu { get; set; }
 }

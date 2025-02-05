@@ -28,7 +28,27 @@
             }
             else if (activePopup == PopupType.SearchPosts)
             {
-                <SearchPosts ClosePopup="ClosePopup"/>
+                <SearchPosts returnToMenu="returnToMenu"/>
+            }
+            else if (activePopup == PopupType.SearchResults)
+            {
+
+            }
+            else if (activePopup == PopupType.Notifications)
+            {
+
+            }
+            else if (activePopup == PopupType.HelpSupport)
+            {
+
+            }
+            else if (activePopup == PopupType.TermsConditions)
+            {
+
+            }
+            else if (activePopup == PopupType.About)
+            {
+                
             }
             
         </div>
@@ -107,6 +127,11 @@ else{
     {
         activePopup = PopupType.PostDetails;
         SelectedPost = mypost;
+    }
+
+    private void returnToMenu()
+    {
+        activePopup = PopupType.Menu;
     }
 
     private void ClosePopup()

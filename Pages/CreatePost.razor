@@ -5,10 +5,10 @@
 <div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
     <div class="details-container">
         <div class="name-date">
-            <input class="author-input "type="text" placeholder="name." @bind="NameInput" @bind:event="oninput" maxlength="15"/>
+            <input class="author-input" type="text" placeholder="name." @bind="NameInput" @bind:event="oninput" maxlength="15"/>
             <p></p>
         </div>
-        <textarea class="content-input"_framework placeholder="write your thoughts here." @bind="ContentInput" @bind:event="oninput" maxlength="250"></textarea>
+        <textarea class="content-input create" placeholder="write your thoughts here." @bind="ContentInput" @bind:event="oninput" maxlength="250"></textarea>
 
         <p class="submit" @onclick="SubmitPost">submit.</p>
     </div>
