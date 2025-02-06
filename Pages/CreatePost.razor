@@ -35,7 +35,7 @@
 @code {
     private string NameInput { get; set; } = "";
     private string ContentInput { get; set; } = "";
-
+    [Parameter] public Action<PopupType>? OpenPopup { get; set; }
     [Parameter] public EventCallback ClosePopup { get; set; }
     private async Task SubmitPost()
     {
@@ -64,8 +64,7 @@
             ContentInput = "";
 
             // Close the popup
-            await ClosePopup.InvokeAsync();
-            StateHasChanged();
+            OpenPopup?.Invoke(PopupType.PendingPage);
         }
         catch (Exception ex)
         {

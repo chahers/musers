@@ -6,7 +6,7 @@
     padding: 25px 30px 27px 500px;
     position: fixed;
     background-color: #F2EDE1;
-    z-index: 100;
+    z-index: 90;
 }
 
 .main-icon {
@@ -20,9 +20,13 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 20px;
     padding: 30px 15px;
-    margin-top: 60px;
+    margin-top: 80px;
     overflow-x: hidden;
     z-index: 3;
+}
+
+.post-container.results {
+    margin-top: 35px;
 }
 
 .loading {
@@ -33,6 +37,19 @@
     font-family: 'Bodoni Moda';
     font-size: 35px;
     animation: fade-in 2s;
+    width: 100vw;
+    text-align: center;
+}
+
+.loading.pending {
+    padding-top: 20vh;
+    font-size: 30px;
+    -webkit-text-stroke: 0.6px #2A5496;
+    width: 70vw;
+}
+
+.loading.results {
+    padding: 0;
 }
 
 @keyframes fade-in {
@@ -121,12 +138,14 @@
 .popup-overlay {
     position: fixed;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     z-index: 999;
     background-color: #F2EDE1;
     align-items: center;
     justify-content: center;
     grid-column: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .popup-container {
@@ -192,8 +211,13 @@
     font-size: 20px;
     cursor: pointer;
     margin-right: 20px;
-    padding-bottom: 15px;;
+    padding-bottom: 15px;
     justify-self: end;
+}
+
+.submit.search {
+    justify-self: center;
+    margin-right: 0;
 }
 
 .counter-container {
@@ -208,22 +232,34 @@
     font-size: 18px;
 }
 
-.close-button {
+.close-container {
+    display: flex;
+    top: 0;
+    right: 0;
+    gap: 15px;
+    padding: 25px 30px 27px 500px;
     position: fixed;
+    background-color: #F2EDE1;
+    z-index: 90;
+}
+
+.close-button {
     top: 25px;
     right: 30px;
     color: #2A5496;
     font-size: 30px; 
     cursor: pointer;
+    background-color: #F2EDE1;
+    z-index: 90;
 }
 
 .menu-container {
     justify-items: center;
     display: grid;
+    place-items: center;
+    width: fit-content;
     gap: 10px;
-    width: max-content;
-    justify-self: center;
-    margin-top: 17vh;
+    margin: 17vh auto 0 auto;
 }
 
 .menu-items {
@@ -246,21 +282,63 @@
 }
 
 .searchbar {
-    color:#2A5496;
-    -webkit-text-stroke: 0.5px #2A5496;
+    color:#73706A;
+    -webkit-text-stroke: 0.5px #73706A;
     font-family: 'Bodoni Moda';
     height: 40px;
     font-size: 20px;
     border-radius: 20px;
-    width:fit-content;
+    width: 270px;
     text-align: center;
     background-color: #F7F4EB;
     border-color: transparent;
 }
 
 .searchbar::placeholder {
+    opacity: 0.4;
+}
+
+.searchtext {
+    position: fixed;
+    background-color: #F2EDE1;
+    padding: 5px 0 10px 30px;
+    color: #2A5496;
+    -webkit-text-stroke: 0.6px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 35px;
+    z-index: 100;
+    transform: translateY(-5px);
+    width: 100vw;
+    text-align: start;
+}
+
+.chahers-pending {
+    position: fixed;
     color: #73706A;
-    -webkit-text-stroke: 0.5px #73706A;
+    -webkit-text-stroke: 0.2px #73706A;
+    font-family: 'Bodoni Moda';
+    text-align: left;
+    width: 100vw;
+    font-size: 18px;
+    margin-left: 30px;
+    transform: translateY(-10px);
+    text-shadow: 0 1px 2px #838585;
+}
+
+.about {
+    padding: 12vh 30px 0 30px;
+    justify-self: center;
+    color: #2A5496;
+    -webkit-text-stroke: 0.5px #2A5496;
+    font-family: 'Bodoni Moda';
+    font-size: 25px;
+    animation: fade-in 2s;
+    width: 100vw;
+    text-align: left;
+}
+
+body.no-scroll {
+    overflow: hidden;
 }
 
 @media (max-width: 641px) {
@@ -273,6 +351,9 @@
         margin-top: 100px;
         padding: 30px 0;
     }
+    .post-container.results {
+        margin-top: 40px;
+    }
     .post-box:hover {
         transform: none; 
     }
@@ -283,7 +364,10 @@
         padding: 25px 74.5% 3px 0 ;
     }
     .popup-container {
-        padding: 115px 0;
+        padding: 110px 0;
+    }
+    .close-container{
+        padding: 57px 30px 30px 500px;
     }
     .close-button {
         top: 55px;
@@ -293,5 +377,14 @@
     }
     .content-input.create{
         height: 70vw;
+    }
+    .searchtext{
+        transform: none;
+    }
+    .chahers-pending {
+        transform: translateY(-5px);
+    }
+    .about {
+        font-size: 22px;
     }
 }

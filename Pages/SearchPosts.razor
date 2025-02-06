@@ -9,19 +9,31 @@
 <div class="menu-container">
     <span class="search-post">search posts.</span>
     <input class="searchbar" type="text" @bind="SearchInput" @bind:event="oninput" placeholder="type here."/>
-    <span class="submit" @onclick="setSearchQuery">submit.</span>
+    <span class="submit search" @onclick="setSearchQuery">submit.</span>
+
+    @if (InputError && SearchInput == "")
+    {
+        <span class="char-count">please write an input.</span>
+    }
 </div>
 
 @code {
     [Parameter] public EventCallback returnToMenu { get; set; }
     [Parameter] public Action<PopupType>? OpenPopup { get; set; }
-    [Parameter] public PopupType activePopup { get; set; }
     private string SearchInput { get; set; } = "";
+    private bool InputError = false;
     private async Task setSearchQuery()
     {
-        Session.SearchQuery = SearchInput;
-        await Search();
-        OpenPopup?.Invoke(PopupType.SearchResults);
+        if (!string.IsNullOrWhiteSpace(SearchInput)){
+            Session.SearchQuery = SearchInput;
+            await Search();
+            OpenPopup?.Invoke(PopupType.SearchResults);
+        }
+        else
+        {
+            InputError = true;
+            return;
+        }
     }
 
     private List<Post> Posts = new();
@@ -32,6 +44,7 @@
             if (string.IsNullOrWhiteSpace(@Session.SearchQuery))
                 return;
 
+            InputError = false;
             var jsonData = await JSRuntime.InvokeAsync<string>("searchPosts", "posts", @Session.SearchQuery, 10, 0);
             if (!string.IsNullOrEmpty(jsonData))
             {

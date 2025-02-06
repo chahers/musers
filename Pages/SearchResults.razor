@@ -4,9 +4,10 @@
 @inject SessionService Session
 
 <div class="close-container">
-    <div class="material-symbols-outlined close-button" @onclick="returnToMenu">close</div>
+    <div class="material-symbols-outlined close-button" @onclick="HandleCloseClick">close</div>
 </div>
-<div class="post-container">
+<h2 class="searchtext">searching @Session.SearchQuery.</h2>
+<div class="post-container results">
     @if (@Session.SearchedPosts != null && @Session.SearchedPosts.Any())
     {
         @for (int i = 0; i < @Session.SearchedPosts.Count; i++)
@@ -24,7 +25,7 @@
     }
     else
     {
-        <p class="loading">Loading posts...</p>
+        <p class="loading results">Loading posts...</p>
     }
 </div>
 
@@ -40,5 +41,9 @@
         OpenPost?.Invoke(post);
         Console.WriteLine(post);
     }
-
+    private void HandleCloseClick()
+    {
+        Session.SearchQuery = "";
+        OpenPopup?.Invoke(PopupType.SearchPosts);
+    }
 }

@@ -14,6 +14,7 @@ namespace myBlazorApp.Models
         Menu,
         CreatePost,
         PostDetails,
+        PendingPage,
         SearchPosts,
         SearchResults,
         Notifications,

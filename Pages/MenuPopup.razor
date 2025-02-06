@@ -3,16 +3,15 @@
 <div class="close-container"><div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div></div>
 
 <div class="menu-container">
-    <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.SearchPosts)'>search posts.</h3>
-    <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.Notifications)'>notifications.</h3>
-    <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.HelpSupport)'>help & support.</h3>
-    <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.TermsConditions)'>terms & conditions.</h3>
-    <h3 class="menu-items" @onclick='() => OpenPopup(PopupType.About)'>about.</h3>
+    <h3 class="menu-items" @onclick='() => OpenPopup?.Invoke(PopupType.SearchPosts)'>search posts.</h3>
+    <h3 class="menu-items" @onclick='() => OpenPopup?.Invoke(PopupType.Notifications)'>notifications.</h3>
+    <h3 class="menu-items" @onclick='() => OpenPopup?.Invoke(PopupType.HelpSupport)'>help & support.</h3>
+    <h3 class="menu-items" @onclick='() => OpenPopup?.Invoke(PopupType.TermsConditions)'>terms & conditions.</h3>
+    <h3 class="menu-items" @onclick='() => OpenPopup?.Invoke(PopupType.About)'>about.</h3>
 </div>
 
 @code {
     [Parameter] public EventCallback ClosePopup { get; set; }
     [Parameter] public Action<PopupType>? OpenPopup { get; set; }
-    [Parameter] public PopupType activePopup { get; set; }
 
 }

@@ -55,8 +55,8 @@ window.searchPosts = async function (table, searchWord, limit, offset) {
             .from(table)
             .select('*')
             .eq('state', 'approved')
-            .ilike('content', `%${searchWord}%`) 
-            .ilike('author', `%${searchWord}%`) 
+            .or(`content.ilike.%${ searchWord }%,author.ilike.%${ searchWord }%`) 
+            // .or(`content.similar_to.'% ${searchWord} %', author.similar_to.'% ${searchWord} %'`)
             .order('timestamp', { ascending: false })
             .limit(limit)
             .range(offset, offset + limit - 1);

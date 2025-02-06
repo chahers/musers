@@ -13,24 +13,29 @@
 
 @if (activePopup != PopupType.Main)
 {
-    
+    JSRuntime.InvokeVoidAsync("disableScroll");
     <div class="popup-overlay">
         <div class="popup-container">
             @if (activePopup == PopupType.CreatePost)
             {
-                <CreatePost ClosePopup="ClosePopup"/>
+                <CreatePost ClosePopup="ClosePopup" OpenPopup="OpenPopup"/>
+            }
+            else if (activePopup == PopupType.PendingPage)
+            {
+                <PendingPage ClosePopup="ClosePopup"/>
+                @* Navigation.NavigateTo("/pending"); *@
             }
             else if (activePopup == PopupType.Menu)
             {
-                <MenuPopup ClosePopup="ClosePopup" OpenPopup="OpenPopup" activePopup="@activePopup"/>
+                <MenuPopup ClosePopup="ClosePopup" OpenPopup="OpenPopup"/>
             }
             else if (activePopup == PopupType.PostDetails)
             {
-                <PostDetails SelectedPost="@SelectedPost" ClosePopup="ClosePopup" />
+                <PostDetails SelectedPost="@SelectedPost" ClosePopup="ClosePopup" OpenPopup="OpenPopup" />
             }
             else if (activePopup == PopupType.SearchPosts)
             {
-                <SearchPosts returnToMenu="returnToMenu" OpenPopup="OpenPopup" activePopup="@activePopup"/>
+                <SearchPosts returnToMenu="returnToMenu" OpenPopup="OpenPopup" />
             }
             else if (activePopup == PopupType.SearchResults)
             {
@@ -59,6 +64,7 @@
 
 else{
     activePopup = PopupType.Main;
+    JSRuntime.InvokeVoidAsync("enableScroll");
 }
 
 <div class="post-container">
@@ -85,7 +91,7 @@ else{
 
 @code {
     private int postCount = 10; // Default to 10 posts for mobile
-    private List<Post> posts;
+    private List<Post>? posts;
 
      protected override async Task OnAfterRenderAsync(bool firstRender)
     {
@@ -140,6 +146,7 @@ else{
     private void ClosePopup()
     {
         activePopup = PopupType.Main;
+        Navigation.NavigateTo("/main");
     }
 
     

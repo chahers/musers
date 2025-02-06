@@ -48,3 +48,36 @@ window.insertData = async function (table, row) {
         console.error('Unexpected error:', err);
     }
 }
+
+window.searchPosts = async function (table, searchWord, limit, offset) {
+    try {
+        const { data, error } = await supabaseClient
+            .from(table)
+            .select('*')
+            .eq('state', 'approved')
+            .or(`content.ilike.%${ searchWord }%,author.ilike.%${ searchWord }%`) 
+            // .or(`content.similar_to.'% ${searchWord} %', author.similar_to.'% ${searchWord} %'`)
+            .order('timestamp', { ascending: false })
+            .limit(limit)
+            .range(offset, offset + limit - 1);
+
+        if (error) {
+            console.error('Error searching data:', error);
+            return JSON.stringify([]);
+        }
+
+        // Map the data into the format expected by Blazor
+        const formattedData = data.map(post => ({
+            Id: post.id,
+            Author: post.author,
+            Content: post.content,
+            Timestamp: post.timestamp
+        }));
+
+        return JSON.stringify(formattedData);
+    } catch (err) {
+        console.error('Unexpected error:', err);
+        return JSON.stringify([]);
+    }
+};
+

@@ -1,0 +1,10 @@
+@using myBlazorApp.Models
+
+<div class="close-container">
+    <div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
+</div>
+<h2 class="loading pending">thank you for submitting. your post is under review! come back again next time and see if your post has been approved.</h2>
+
+@code {
+    [Parameter] public EventCallback ClosePopup { get; set; }
+}
