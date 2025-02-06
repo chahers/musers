@@ -15,14 +15,14 @@
     <StaticWebAssetEndpoint Include="css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7647"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002289yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 08:55:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7942"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 12:28:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="css/site.rm8d8i6a0b.css">
+    <StaticWebAssetEndpoint Include="css/site.yb482kolei.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rm8d8i6a0b"},{"Name":"integrity","Value":"sha256-89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc="},{"Name":"label","Value":"css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7647"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002289yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 08:55:05 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yb482kolei"},{"Name":"integrity","Value":"sha256-7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI="},{"Name":"label","Value":"css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7942"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 12:28:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="favicon.mhqsiezuwx.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))</AssetFile>
@@ -35,6 +35,774 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Gm9F2br8P9hk6VPF7rNBu9Np8UFT7o9TMkYpFRJnCW0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"11479"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Gm9F2br8P9hk6VPF7rNBu9Np8UFT7o9TMkYpFRJnCW0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 02:15:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.p3rk2u0kjt.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\BodoniModa-Italic-VariableFont_opsz,wght.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p3rk2u0kjt"},{"Name":"integrity","Value":"sha256-NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg="},{"Name":"label","Value":"fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"176628"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\BodoniModa-Italic-VariableFont_opsz,wght.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"176628"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\BodoniModa-VariableFont_opsz,wght.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw\u002BflMkSvvEw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"162548"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw\u002BflMkSvvEw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.xqwmy5y5qa.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\BodoniModa-VariableFont_opsz,wght.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xqwmy5y5qa"},{"Name":"integrity","Value":"sha256-t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw\u002BflMkSvvEw="},{"Name":"label","Value":"fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"162548"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw\u002BflMkSvvEw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/OFL.bnra9rd8hr.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\OFL.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bnra9rd8hr"},{"Name":"integrity","Value":"sha256-d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M="},{"Name":"label","Value":"fonts/Bodoni_Moda/OFL.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4492"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/OFL.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\OFL.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4492"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/README.qcie53o151.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\README.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qcie53o151"},{"Name":"integrity","Value":"sha256-aiULUWhNnYs3tJ03\u002B8/fghq7XRKE\u002BcbP6tBPJLVr7tc="},{"Name":"label","Value":"fonts/Bodoni_Moda/README.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4418"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022aiULUWhNnYs3tJ03\u002B8/fghq7XRKE\u002BcbP6tBPJLVr7tc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/README.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\README.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aiULUWhNnYs3tJ03\u002B8/fghq7XRKE\u002BcbP6tBPJLVr7tc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4418"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022aiULUWhNnYs3tJ03\u002B8/fghq7XRKE\u002BcbP6tBPJLVr7tc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.0ta569dac2.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0ta569dac2"},{"Name":"integrity","Value":"sha256-9J9jxnAq2eBeaYfp0bucrdAZWGB\u002BmQyVdtQ6xcQis1o="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58868"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00229J9jxnAq2eBeaYfp0bucrdAZWGB\u002BmQyVdtQ6xcQis1o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9J9jxnAq2eBeaYfp0bucrdAZWGB\u002BmQyVdtQ6xcQis1o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58868"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00229J9jxnAq2eBeaYfp0bucrdAZWGB\u002BmQyVdtQ6xcQis1o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.9n5swr3d8c.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9n5swr3d8c"},{"Name":"integrity","Value":"sha256-lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62528"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62528"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GK0SriOk6\u002BBWxjir5AcCQ5NX5Rr10IcgGae1w5Iv\u002BTU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58856"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022GK0SriOk6\u002BBWxjir5AcCQ5NX5Rr10IcgGae1w5Iv\u002BTU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.wiz13sbfbd.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wiz13sbfbd"},{"Name":"integrity","Value":"sha256-GK0SriOk6\u002BBWxjir5AcCQ5NX5Rr10IcgGae1w5Iv\u002BTU="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58856"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022GK0SriOk6\u002BBWxjir5AcCQ5NX5Rr10IcgGae1w5Iv\u002BTU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.qxk0tfwloq.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qxk0tfwloq"},{"Name":"integrity","Value":"sha256-An3L0tTTjL\u002BXL8MD8z81JN6XirRWs03\u002BkGve7PInt8Q="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62436"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022An3L0tTTjL\u002BXL8MD8z81JN6XirRWs03\u002BkGve7PInt8Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-An3L0tTTjL\u002BXL8MD8z81JN6XirRWs03\u002BkGve7PInt8Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62436"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022An3L0tTTjL\u002BXL8MD8z81JN6XirRWs03\u002BkGve7PInt8Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ssht249ck8.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ssht249ck8"},{"Name":"integrity","Value":"sha256-pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1\u002BCBykJENlQ4="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58952"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1\u002BCBykJENlQ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1\u002BCBykJENlQ4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58952"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1\u002BCBykJENlQ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.g2lwgcij6z.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g2lwgcij6z"},{"Name":"integrity","Value":"sha256-qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62516"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62516"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.pydn2ybbjq.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pydn2ybbjq"},{"Name":"integrity","Value":"sha256-cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62208"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62208"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.g35gnh28pu.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g35gnh28pu"},{"Name":"integrity","Value":"sha256-NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58744"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58744"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.qqew6cfq8e.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qqew6cfq8e"},{"Name":"integrity","Value":"sha256-Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62356"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62356"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.6jlwapyrqh.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6jlwapyrqh"},{"Name":"integrity","Value":"sha256-AmPwmhGCj3glC\u002BWXfOk3PjEvQO\u002B/nTWcBId0tLy/jFI="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58728"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022AmPwmhGCj3glC\u002BWXfOk3PjEvQO\u002B/nTWcBId0tLy/jFI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AmPwmhGCj3glC\u002BWXfOk3PjEvQO\u002B/nTWcBId0tLy/jFI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58728"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022AmPwmhGCj3glC\u002BWXfOk3PjEvQO\u002B/nTWcBId0tLy/jFI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.pm4nzal4mh.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pm4nzal4mh"},{"Name":"integrity","Value":"sha256-z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58828"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58828"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ec7ma0qk91.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ec7ma0qk91"},{"Name":"integrity","Value":"sha256-UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62436"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_18pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62436"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.blt27auhez.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"blt27auhez"},{"Name":"integrity","Value":"sha256-T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62528"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.wom3fbo8dt.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wom3fbo8dt"},{"Name":"integrity","Value":"sha256-oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62528"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.qi9d34dbg3.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qi9d34dbg3"},{"Name":"integrity","Value":"sha256-cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.jsjarvpjy7.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jsjarvpjy7"},{"Name":"integrity","Value":"sha256-s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62440"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62440"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.4zeq6lxxyz.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4zeq6lxxyz"},{"Name":"integrity","Value":"sha256-UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58924"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58924"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.se7lg99rqq.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"se7lg99rqq"},{"Name":"integrity","Value":"sha256-xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62540"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62540"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.l3w8nu8yos.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l3w8nu8yos"},{"Name":"integrity","Value":"sha256-f/x3FhyBEZW\u002BeerWxH15beX5DKubzavORZkqS0WH\u002B54="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62224"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022f/x3FhyBEZW\u002BeerWxH15beX5DKubzavORZkqS0WH\u002B54=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-f/x3FhyBEZW\u002BeerWxH15beX5DKubzavORZkqS0WH\u002B54="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62224"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022f/x3FhyBEZW\u002BeerWxH15beX5DKubzavORZkqS0WH\u002B54=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.hfkw8rfh3a.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hfkw8rfh3a"},{"Name":"integrity","Value":"sha256-k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58768"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58768"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.1r2g7owlo8.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1r2g7owlo8"},{"Name":"integrity","Value":"sha256-7XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62324"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00227XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62324"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00227XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.dx89otnofp.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dx89otnofp"},{"Name":"integrity","Value":"sha256-cbEVWaUb6nkFT7HOV5msTCSDVPaO\u002B43gDCnfGjF8/aE="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58696"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022cbEVWaUb6nkFT7HOV5msTCSDVPaO\u002B43gDCnfGjF8/aE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cbEVWaUb6nkFT7HOV5msTCSDVPaO\u002B43gDCnfGjF8/aE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58696"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022cbEVWaUb6nkFT7HOV5msTCSDVPaO\u002B43gDCnfGjF8/aE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.27c7y9661u.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"27c7y9661u"},{"Name":"integrity","Value":"sha256-gsBa3BCqBE/97rbKGklKOkB\u002BjXGhOsL7/bTAjkAvPKw="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58836"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022gsBa3BCqBE/97rbKGklKOkB\u002BjXGhOsL7/bTAjkAvPKw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gsBa3BCqBE/97rbKGklKOkB\u002BjXGhOsL7/bTAjkAvPKw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58836"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022gsBa3BCqBE/97rbKGklKOkB\u002BjXGhOsL7/bTAjkAvPKw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ol50wutjwj.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ol50wutjwj"},{"Name":"integrity","Value":"sha256-XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62440"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_28pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62440"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.kv7ri8uly3.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kv7ri8uly3"},{"Name":"integrity","Value":"sha256-oPJSqDn0b\u002BJl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58876"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022oPJSqDn0b\u002BJl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oPJSqDn0b\u002BJl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58876"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022oPJSqDn0b\u002BJl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.7y0p6jovvr.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7y0p6jovvr"},{"Name":"integrity","Value":"sha256-8fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62496"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00228fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62496"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00228fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58864"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.vazbbts2ju.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vazbbts2ju"},{"Name":"integrity","Value":"sha256-d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58864"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62392"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.uhtyt9vt0l.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uhtyt9vt0l"},{"Name":"integrity","Value":"sha256-LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62392"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ffpzexiteh.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ffpzexiteh"},{"Name":"integrity","Value":"sha256-e73tUiwiXaohI7zQ4A8zt\u002BraY2XbQzdLQEQDnZWXxAs="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58964"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022e73tUiwiXaohI7zQ4A8zt\u002BraY2XbQzdLQEQDnZWXxAs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e73tUiwiXaohI7zQ4A8zt\u002BraY2XbQzdLQEQDnZWXxAs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58964"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022e73tUiwiXaohI7zQ4A8zt\u002BraY2XbQzdLQEQDnZWXxAs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ddhaxkn7b0.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ddhaxkn7b0"},{"Name":"integrity","Value":"sha256-j8hM/2Q6GD\u002Bqg5FhQi1XUliejhBulC5YFrgX2/iAE1U="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62552"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022j8hM/2Q6GD\u002Bqg5FhQi1XUliejhBulC5YFrgX2/iAE1U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j8hM/2Q6GD\u002Bqg5FhQi1XUliejhBulC5YFrgX2/iAE1U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62552"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022j8hM/2Q6GD\u002Bqg5FhQi1XUliejhBulC5YFrgX2/iAE1U=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.asf26cqzbs.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"asf26cqzbs"},{"Name":"integrity","Value":"sha256-lm2vz5E/SEPIPCpa6YZgIj60ByA8UX\u002BZHbe/2vmiMk8="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62236"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022lm2vz5E/SEPIPCpa6YZgIj60ByA8UX\u002BZHbe/2vmiMk8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lm2vz5E/SEPIPCpa6YZgIj60ByA8UX\u002BZHbe/2vmiMk8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62236"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022lm2vz5E/SEPIPCpa6YZgIj60ByA8UX\u002BZHbe/2vmiMk8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.svyikv3xbt.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"svyikv3xbt"},{"Name":"integrity","Value":"sha256-GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58792"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58792"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.b7txhdyn2z.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b7txhdyn2z"},{"Name":"integrity","Value":"sha256-F/drICQg06NLbj6vM6C4EWWs9nPs3DV\u002BQzWPFWGdJdo="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62328"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022F/drICQg06NLbj6vM6C4EWWs9nPs3DV\u002BQzWPFWGdJdo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-F/drICQg06NLbj6vM6C4EWWs9nPs3DV\u002BQzWPFWGdJdo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62328"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022F/drICQg06NLbj6vM6C4EWWs9nPs3DV\u002BQzWPFWGdJdo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.d3zxp7d6t2.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d3zxp7d6t2"},{"Name":"integrity","Value":"sha256-6bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58724"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00226bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58724"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00226bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58844"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.v0t9dk0871.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v0t9dk0871"},{"Name":"integrity","Value":"sha256-L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58844"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.t0ijtljugv.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t0ijtljugv"},{"Name":"integrity","Value":"sha256-A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62432"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_48pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62432"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58868"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.yet6t6sqng.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yet6t6sqng"},{"Name":"integrity","Value":"sha256-ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58868"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.jvhshbz932.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jvhshbz932"},{"Name":"integrity","Value":"sha256-gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm\u002Byrvc="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62456"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm\u002Byrvc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm\u002Byrvc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62456"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm\u002Byrvc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.7f9q52rw97.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7f9q52rw97"},{"Name":"integrity","Value":"sha256-zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg\u002BH81g="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58844"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg\u002BH81g=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg\u002BH81g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58844"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg\u002BH81g=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.bt46jnf3k5.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bt46jnf3k5"},{"Name":"integrity","Value":"sha256-IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W\u002BTBEUA="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62340"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W\u002BTBEUA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W\u002BTBEUA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62340"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W\u002BTBEUA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.csrsg47dko.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"csrsg47dko"},{"Name":"integrity","Value":"sha256-VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58956"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58956"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.pb5ar90nrh.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pb5ar90nrh"},{"Name":"integrity","Value":"sha256-dbgxpt\u002B4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62496"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022dbgxpt\u002B4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dbgxpt\u002B4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62496"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022dbgxpt\u002B4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.r87h94ag5s.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r87h94ag5s"},{"Name":"integrity","Value":"sha256-6xf9T2\u002BXiYkIzNrj3p\u002Ba8lQ2Adl97NIfyPRM19OrX50="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62132"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00226xf9T2\u002BXiYkIzNrj3p\u002Ba8lQ2Adl97NIfyPRM19OrX50=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6xf9T2\u002BXiYkIzNrj3p\u002Ba8lQ2Adl97NIfyPRM19OrX50="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62132"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00226xf9T2\u002BXiYkIzNrj3p\u002Ba8lQ2Adl97NIfyPRM19OrX50=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.4jea6jgi2j.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4jea6jgi2j"},{"Name":"integrity","Value":"sha256-8CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58776"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00228CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58776"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00228CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.0of7bfqrdt.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0of7bfqrdt"},{"Name":"integrity","Value":"sha256-8M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62292"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00228M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62292"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00228M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.thi8llu5rs.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"thi8llu5rs"},{"Name":"integrity","Value":"sha256-odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58676"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58676"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R6w9E3\u002BnwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58824"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022R6w9E3\u002BnwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.vqs3wqzcsf.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vqs3wqzcsf"},{"Name":"integrity","Value":"sha256-R6w9E3\u002BnwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58824"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022R6w9E3\u002BnwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.c0nc8ipg9o.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c0nc8ipg9o"},{"Name":"integrity","Value":"sha256-hOBkjcbr1c\u002BNHYMUm0lV15cqkzLnmArLn4nB1pJAgxw="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62364"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022hOBkjcbr1c\u002BNHYMUm0lV15cqkzLnmArLn4nB1pJAgxw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_72pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hOBkjcbr1c\u002BNHYMUm0lV15cqkzLnmArLn4nB1pJAgxw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62364"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022hOBkjcbr1c\u002BNHYMUm0lV15cqkzLnmArLn4nB1pJAgxw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ckr21ttcqa.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ckr21ttcqa"},{"Name":"integrity","Value":"sha256-DP0h53clDPE6uS\u002Bmxqbg89uEGL1lsuRY3N8b5l9tY5Y="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58832"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022DP0h53clDPE6uS\u002Bmxqbg89uEGL1lsuRY3N8b5l9tY5Y=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Black.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DP0h53clDPE6uS\u002Bmxqbg89uEGL1lsuRY3N8b5l9tY5Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58832"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022DP0h53clDPE6uS\u002Bmxqbg89uEGL1lsuRY3N8b5l9tY5Y=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.rn4gwy8m4l.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rn4gwy8m4l"},{"Name":"integrity","Value":"sha256-aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62424"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-BlackItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62424"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.jubunvlcs2.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jubunvlcs2"},{"Name":"integrity","Value":"sha256-ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58808"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Bold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58808"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.gstbjd6925.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gstbjd6925"},{"Name":"integrity","Value":"sha256-kFK6PTMqpA8zyOCTzgYQPUfouJ\u002BA6MyUnseL341V8j8="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62400"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022kFK6PTMqpA8zyOCTzgYQPUfouJ\u002BA6MyUnseL341V8j8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-BoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kFK6PTMqpA8zyOCTzgYQPUfouJ\u002BA6MyUnseL341V8j8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62400"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022kFK6PTMqpA8zyOCTzgYQPUfouJ\u002BA6MyUnseL341V8j8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.0am0b9sqx5.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0am0b9sqx5"},{"Name":"integrity","Value":"sha256-yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN\u002BeE="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN\u002BeE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-ExtraBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN\u002BeE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58872"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN\u002BeE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.r21j7j40u8.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r21j7j40u8"},{"Name":"integrity","Value":"sha256-zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62488"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-ExtraBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62488"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.15q8i14cuy.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"15q8i14cuy"},{"Name":"integrity","Value":"sha256-q5M0UlKzgmvxkmgTUs19EYjmDwuC8\u002BDdupqnhI5O98s="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62148"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022q5M0UlKzgmvxkmgTUs19EYjmDwuC8\u002BDdupqnhI5O98s=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Italic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q5M0UlKzgmvxkmgTUs19EYjmDwuC8\u002BDdupqnhI5O98s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62148"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022q5M0UlKzgmvxkmgTUs19EYjmDwuC8\u002BDdupqnhI5O98s=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.eu5822oh7j.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eu5822oh7j"},{"Name":"integrity","Value":"sha256-lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58732"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Medium.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58732"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.69kvdfzr5k.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"69kvdfzr5k"},{"Name":"integrity","Value":"sha256-ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62324"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-MediumItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62324"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ilale0mz8b.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ilale0mz8b"},{"Name":"integrity","Value":"sha256-5hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58660"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00225hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-Regular.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58660"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u00225hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.r5lqeaaq33.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r5lqeaaq33"},{"Name":"integrity","Value":"sha256-n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58800"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-SemiBold.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"58800"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.n5vzx55b0y.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n5vzx55b0y"},{"Name":"integrity","Value":"sha256-hXKDAZ7dkSfakTwlPZPbNk\u002BWoffeG6uPjD0PawkUVcM="},{"Name":"label","Value":"fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62376"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022hXKDAZ7dkSfakTwlPZPbNk\u002BWoffeG6uPjD0PawkUVcM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fonts\Bodoni_Moda\static\BodoniModa_9pt-SemiBoldItalic.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hXKDAZ7dkSfakTwlPZPbNk\u002BWoffeG6uPjD0PawkUVcM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"62376"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022hXKDAZ7dkSfakTwlPZPbNk\u002BWoffeG6uPjD0PawkUVcM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 26 Jan 2025 13:44:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="icon-192.f9uvjujlxy.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\icon-192.png'))</AssetFile>
@@ -72,17 +840,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DoWkM/xTIrlMD8SCcxOa4eWG5C1x70/QrfQL7J/XJSI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"619"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DoWkM/xTIrlMD8SCcxOa4eWG5C1x70/QrfQL7J/XJSI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 01:54:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="js/supabase.3o75ot863k.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\supabase.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3o75ot863k"},{"Name":"integrity","Value":"sha256-7Z2fmAZb1BeMfFsaIJMJOxFQ\u002BzDsa/mbPd/zeeM27Kg="},{"Name":"label","Value":"js/supabase.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2814"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227Z2fmAZb1BeMfFsaIJMJOxFQ\u002BzDsa/mbPd/zeeM27Kg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 02:17:33 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="js/supabase.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\supabase.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7Z2fmAZb1BeMfFsaIJMJOxFQ\u002BzDsa/mbPd/zeeM27Kg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2814"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227Z2fmAZb1BeMfFsaIJMJOxFQ\u002BzDsa/mbPd/zeeM27Kg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 02:17:33 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX\u002BBik="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2800"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX\u002BBik=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 12:03:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="js/supabase.t7o5k6r50q.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\supabase.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t7o5k6r50q"},{"Name":"integrity","Value":"sha256-J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX\u002BBik="},{"Name":"label","Value":"js/supabase.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2800"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX\u002BBik=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 12:03:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

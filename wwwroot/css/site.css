@@ -17,7 +17,7 @@
 
 .post-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px;
     padding: 30px 15px;
     margin-top: 80px;
@@ -70,6 +70,7 @@
     transition: transform 0.2s;
     margin: 0 auto;
     width: 100%;
+    max-width: 350px;
     height: 250px; 
     position: relative;
     overflow: hidden;
@@ -85,7 +86,7 @@
 
 .author {
     color: #2A5496;
-    -webkit-text-stroke: 0.3px #2A5496;
+    -webkit-text-stroke: 0.5px #2A5496;
     font-family: 'Bodoni Moda';
     font-size: 22px;
 }
@@ -93,6 +94,7 @@
 .timestamp {
     padding-top: 10px;
     color: #73706A;
+    -webkit-text-stroke: 0.25px #73706A;
     font-family: 'Bodoni Moda';
     font-size: 15px;
 }
@@ -103,6 +105,7 @@
 
 .content {
     color: #73706A;
+    -webkit-text-stroke: 0.25px #73706A;
     font-family: 'Bodoni Moda';
     font-size: 18px;
     padding: 10px 0 35px 0;
@@ -186,6 +189,7 @@
     border: none; 
     outline: none;
     color: #73706A;
+    -webkit-text-stroke: 0.25px #73706A;
     font-family: 'Bodoni Moda';
     font-size: 20px; 
     padding-top: 20px;
@@ -345,6 +349,11 @@ body.no-scroll {
     overflow: hidden;
 }
 
+@font-face {
+    font-family: 'Bodoni Moda';
+    src: url('../fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
 @media (max-width: 641px) {
     .icon-container {
         padding-top: 55px;
@@ -365,7 +374,7 @@ body.no-scroll {
         width: 90%;
     }
     .see-more {
-        padding: 25px 74.5% 3px 0 ;
+        padding: 25px 74% 3px 0 ;
     }
     .popup-container {
         padding: 110px 0;

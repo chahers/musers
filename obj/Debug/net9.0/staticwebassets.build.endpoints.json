@@ -56347,17 +56347,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f2EXeX+Fio32obamZFmMsWVyeKm1uwWoXvomJ2oPNPg=\""
+          "Value": "\"Me1w/ZI556R93SRTSK/4vDhH62981NBFh/aUeBsuBzE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
+          "Value": "Thu, 06 Feb 2025 12:30:47 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-f2EXeX+Fio32obamZFmMsWVyeKm1uwWoXvomJ2oPNPg="
+          "Value": "sha256-Me1w/ZI556R93SRTSK/4vDhH62981NBFh/aUeBsuBzE="
         }
       ]
     },
@@ -56368,7 +56368,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081380208"
+          "Quality": "0.000081366965"
         }
       ],
       "ResponseHeaders": [
@@ -56386,7 +56386,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12287"
+          "Value": "12289"
         },
         {
           "Name": "Content-Type",
@@ -56394,15 +56394,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YnmXdDQ4S4GoeMhyNf6qHBadMkSdAB3Xu9qJ2jpZ2+s=\""
+          "Value": "\"1YcdrEcGVIKRMG6oyLxICndSiByv9v/yfyEOfQjOzoo=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"f2EXeX+Fio32obamZFmMsWVyeKm1uwWoXvomJ2oPNPg=\""
+          "Value": "W/\"Me1w/ZI556R93SRTSK/4vDhH62981NBFh/aUeBsuBzE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:56:57 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -56412,7 +56412,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-f2EXeX+Fio32obamZFmMsWVyeKm1uwWoXvomJ2oPNPg="
+          "Value": "sha256-Me1w/ZI556R93SRTSK/4vDhH62981NBFh/aUeBsuBzE="
         }
       ]
     },
@@ -56435,7 +56435,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12287"
+          "Value": "12289"
         },
         {
           "Name": "Content-Type",
@@ -56443,11 +56443,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YnmXdDQ4S4GoeMhyNf6qHBadMkSdAB3Xu9qJ2jpZ2+s=\""
+          "Value": "\"1YcdrEcGVIKRMG6oyLxICndSiByv9v/yfyEOfQjOzoo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:56:57 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -56457,7 +56457,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YnmXdDQ4S4GoeMhyNf6qHBadMkSdAB3Xu9qJ2jpZ2+s="
+          "Value": "sha256-1YcdrEcGVIKRMG6oyLxICndSiByv9v/yfyEOfQjOzoo="
         }
       ]
     },
@@ -59579,8 +59579,169 @@
       ]
     },
     {
-      "Route": "_framework/myBlazorApp.n5kl60x3eg.wasm",
-      "AssetFile": "_framework/myBlazorApp.n5kl60x3eg.wasm",
+      "Route": "_framework/myBlazorApp.7opqbsct3u.pdb",
+      "AssetFile": "_framework/myBlazorApp.7opqbsct3u.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 12:17:33 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7opqbsct3u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/myBlazorApp.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/myBlazorApp.7opqbsct3u.pdb",
+      "AssetFile": "_framework/myBlazorApp.7opqbsct3u.pdb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000027230149"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sNRekGoBN8MZT5cwx8+zay1b5lG+eW5fGwdGUQxU3Q8=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7opqbsct3u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/myBlazorApp.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/myBlazorApp.7opqbsct3u.pdb.gz",
+      "AssetFile": "_framework/myBlazorApp.7opqbsct3u.pdb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sNRekGoBN8MZT5cwx8+zay1b5lG+eW5fGwdGUQxU3Q8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7opqbsct3u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sNRekGoBN8MZT5cwx8+zay1b5lG+eW5fGwdGUQxU3Q8="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/myBlazorApp.pdb.gz"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/myBlazorApp.jr47ei62kc.wasm",
+      "AssetFile": "_framework/myBlazorApp.jr47ei62kc.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -59601,21 +59762,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY=\""
+          "Value": "\"Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:53 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n5kl60x3eg"
+          "Value": "jr47ei62kc"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY="
+          "Value": "sha256-Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E="
         },
         {
           "Name": "label",
@@ -59624,13 +59785,13 @@
       ]
     },
     {
-      "Route": "_framework/myBlazorApp.n5kl60x3eg.wasm",
-      "AssetFile": "_framework/myBlazorApp.n5kl60x3eg.wasm.gz",
+      "Route": "_framework/myBlazorApp.jr47ei62kc.wasm",
+      "AssetFile": "_framework/myBlazorApp.jr47ei62kc.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054839594"
+          "Quality": "0.000054851626"
         }
       ],
       "ResponseHeaders": [
@@ -59648,7 +59809,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18234"
+          "Value": "18230"
         },
         {
           "Name": "Content-Type",
@@ -59656,15 +59817,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"13KTXOHQoDE1Fms68e0rIhVeKjKofw4jRyXPLAlyc5Q=\""
+          "Value": "\"Nm13zOsRRfclXFv8xub1+jsmVOiQVu6g1LH1CeFcXgc=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY=\""
+          "Value": "W/\"Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -59674,11 +59835,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n5kl60x3eg"
+          "Value": "jr47ei62kc"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY="
+          "Value": "sha256-Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E="
         },
         {
           "Name": "label",
@@ -59687,8 +59848,8 @@
       ]
     },
     {
-      "Route": "_framework/myBlazorApp.n5kl60x3eg.wasm.gz",
-      "AssetFile": "_framework/myBlazorApp.n5kl60x3eg.wasm.gz",
+      "Route": "_framework/myBlazorApp.jr47ei62kc.wasm.gz",
+      "AssetFile": "_framework/myBlazorApp.jr47ei62kc.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -59705,7 +59866,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18234"
+          "Value": "18230"
         },
         {
           "Name": "Content-Type",
@@ -59713,11 +59874,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"13KTXOHQoDE1Fms68e0rIhVeKjKofw4jRyXPLAlyc5Q=\""
+          "Value": "\"Nm13zOsRRfclXFv8xub1+jsmVOiQVu6g1LH1CeFcXgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -59727,11 +59888,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n5kl60x3eg"
+          "Value": "jr47ei62kc"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-13KTXOHQoDE1Fms68e0rIhVeKjKofw4jRyXPLAlyc5Q="
+          "Value": "sha256-Nm13zOsRRfclXFv8xub1+jsmVOiQVu6g1LH1CeFcXgc="
         },
         {
           "Name": "label",
@@ -59741,7 +59902,7 @@
     },
     {
       "Route": "_framework/myBlazorApp.pdb",
-      "AssetFile": "_framework/myBlazorApp.u3hc801vl8.pdb",
+      "AssetFile": "_framework/myBlazorApp.7opqbsct3u.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -59762,28 +59923,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY=\""
+          "Value": "\"iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:52 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY="
+          "Value": "sha256-iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4="
         }
       ]
     },
     {
       "Route": "_framework/myBlazorApp.pdb",
-      "AssetFile": "_framework/myBlazorApp.u3hc801vl8.pdb.gz",
+      "AssetFile": "_framework/myBlazorApp.7opqbsct3u.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000027236824"
+          "Quality": "0.000027230149"
         }
       ],
       "ResponseHeaders": [
@@ -59801,7 +59962,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36714"
+          "Value": "36723"
         },
         {
           "Name": "Content-Type",
@@ -59809,15 +59970,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2LpBfsOFeE+KZkhxrQWV7qMVhF22rz71Kf8H5j9YL2I=\""
+          "Value": "\"sNRekGoBN8MZT5cwx8+zay1b5lG+eW5fGwdGUQxU3Q8=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY=\""
+          "Value": "W/\"iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -59827,13 +59988,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY="
+          "Value": "sha256-iSAsb47NGhX+7/95wU2Wr7c0OLBD4f9V5PTmgovTau4="
         }
       ]
     },
     {
       "Route": "_framework/myBlazorApp.pdb.gz",
-      "AssetFile": "_framework/myBlazorApp.u3hc801vl8.pdb.gz",
+      "AssetFile": "_framework/myBlazorApp.7opqbsct3u.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -59850,7 +60011,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36714"
+          "Value": "36723"
         },
         {
           "Name": "Content-Type",
@@ -59858,11 +60019,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2LpBfsOFeE+KZkhxrQWV7qMVhF22rz71Kf8H5j9YL2I=\""
+          "Value": "\"sNRekGoBN8MZT5cwx8+zay1b5lG+eW5fGwdGUQxU3Q8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -59872,174 +60033,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2LpBfsOFeE+KZkhxrQWV7qMVhF22rz71Kf8H5j9YL2I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/myBlazorApp.u3hc801vl8.pdb",
-      "AssetFile": "_framework/myBlazorApp.u3hc801vl8.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "47092"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:52 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u3hc801vl8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/myBlazorApp.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/myBlazorApp.u3hc801vl8.pdb",
-      "AssetFile": "_framework/myBlazorApp.u3hc801vl8.pdb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000027236824"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "36714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2LpBfsOFeE+KZkhxrQWV7qMVhF22rz71Kf8H5j9YL2I=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u3hc801vl8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZkY8ich55e6Gr7xa1DlTCudct/Ed3hHWyIa/c/my1QY="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/myBlazorApp.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/myBlazorApp.u3hc801vl8.pdb.gz",
-      "AssetFile": "_framework/myBlazorApp.u3hc801vl8.pdb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "36714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2LpBfsOFeE+KZkhxrQWV7qMVhF22rz71Kf8H5j9YL2I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u3hc801vl8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2LpBfsOFeE+KZkhxrQWV7qMVhF22rz71Kf8H5j9YL2I="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/myBlazorApp.pdb.gz"
+          "Value": "sha256-sNRekGoBN8MZT5cwx8+zay1b5lG+eW5fGwdGUQxU3Q8="
         }
       ]
     },
     {
       "Route": "_framework/myBlazorApp.wasm",
-      "AssetFile": "_framework/myBlazorApp.n5kl60x3eg.wasm",
+      "AssetFile": "_framework/myBlazorApp.jr47ei62kc.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -60060,28 +60060,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY=\""
+          "Value": "\"Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:53 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:33 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY="
+          "Value": "sha256-Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E="
         }
       ]
     },
     {
       "Route": "_framework/myBlazorApp.wasm",
-      "AssetFile": "_framework/myBlazorApp.n5kl60x3eg.wasm.gz",
+      "AssetFile": "_framework/myBlazorApp.jr47ei62kc.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054839594"
+          "Quality": "0.000054851626"
         }
       ],
       "ResponseHeaders": [
@@ -60099,7 +60099,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18234"
+          "Value": "18230"
         },
         {
           "Name": "Content-Type",
@@ -60107,15 +60107,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"13KTXOHQoDE1Fms68e0rIhVeKjKofw4jRyXPLAlyc5Q=\""
+          "Value": "\"Nm13zOsRRfclXFv8xub1+jsmVOiQVu6g1LH1CeFcXgc=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY=\""
+          "Value": "W/\"Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -60125,13 +60125,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-S+8ij90Rwc0Got10lbGKLNBDX6wOdQYaraV0JRihsIY="
+          "Value": "sha256-Ibb5h90IWc/NWKcWYbtchabI98HNZXDwgX1qrSLDR+E="
         }
       ]
     },
     {
       "Route": "_framework/myBlazorApp.wasm.gz",
-      "AssetFile": "_framework/myBlazorApp.n5kl60x3eg.wasm.gz",
+      "AssetFile": "_framework/myBlazorApp.jr47ei62kc.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -60148,7 +60148,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18234"
+          "Value": "18230"
         },
         {
           "Name": "Content-Type",
@@ -60156,11 +60156,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"13KTXOHQoDE1Fms68e0rIhVeKjKofw4jRyXPLAlyc5Q=\""
+          "Value": "\"Nm13zOsRRfclXFv8xub1+jsmVOiQVu6g1LH1CeFcXgc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:58:55 GMT"
+          "Value": "Thu, 06 Feb 2025 12:17:34 GMT"
         },
         {
           "Name": "Vary",
@@ -60170,7 +60170,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-13KTXOHQoDE1Fms68e0rIhVeKjKofw4jRyXPLAlyc5Q="
+          "Value": "sha256-Nm13zOsRRfclXFv8xub1+jsmVOiQVu6g1LH1CeFcXgc="
         }
       ]
     },
@@ -60777,7 +60777,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000572737686"
+          "Quality": "0.000549148819"
         }
       ],
       "ResponseHeaders": [
@@ -60795,7 +60795,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1745"
+          "Value": "1820"
         },
         {
           "Name": "Content-Type",
@@ -60803,15 +60803,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ok6cGB+bR3D6xzNs0ZtJ1oIz+Ny4sTSDqQc6ayHMtNU=\""
+          "Value": "\"TKS/gWSqIg6r67U79bR8JAv1w4/QppOpBoOiLGtDX8M=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc=\""
+          "Value": "W/\"7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:55:05 GMT"
+          "Value": "Thu, 06 Feb 2025 12:28:39 GMT"
         },
         {
           "Name": "Vary",
@@ -60821,7 +60821,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc="
+          "Value": "sha256-7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI="
         }
       ]
     },
@@ -60840,7 +60840,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7647"
+          "Value": "7942"
         },
         {
           "Name": "Content-Type",
@@ -60848,17 +60848,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc=\""
+          "Value": "\"7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:55:05 GMT"
+          "Value": "Thu, 06 Feb 2025 12:28:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc="
+          "Value": "sha256-7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI="
         }
       ]
     },
@@ -60881,7 +60881,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1745"
+          "Value": "1820"
         },
         {
           "Name": "Content-Type",
@@ -60889,11 +60889,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ok6cGB+bR3D6xzNs0ZtJ1oIz+Ny4sTSDqQc6ayHMtNU=\""
+          "Value": "\"TKS/gWSqIg6r67U79bR8JAv1w4/QppOpBoOiLGtDX8M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:55:05 GMT"
+          "Value": "Thu, 06 Feb 2025 12:28:39 GMT"
         },
         {
           "Name": "Vary",
@@ -60903,18 +60903,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ok6cGB+bR3D6xzNs0ZtJ1oIz+Ny4sTSDqQc6ayHMtNU="
+          "Value": "sha256-TKS/gWSqIg6r67U79bR8JAv1w4/QppOpBoOiLGtDX8M="
         }
       ]
     },
     {
-      "Route": "css/site.rm8d8i6a0b.css",
+      "Route": "css/site.yb482kolei.css",
       "AssetFile": "css/site.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000572737686"
+          "Quality": "0.000549148819"
         }
       ],
       "ResponseHeaders": [
@@ -60932,7 +60932,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1745"
+          "Value": "1820"
         },
         {
           "Name": "Content-Type",
@@ -60940,15 +60940,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ok6cGB+bR3D6xzNs0ZtJ1oIz+Ny4sTSDqQc6ayHMtNU=\""
+          "Value": "\"TKS/gWSqIg6r67U79bR8JAv1w4/QppOpBoOiLGtDX8M=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc=\""
+          "Value": "W/\"7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:55:05 GMT"
+          "Value": "Thu, 06 Feb 2025 12:28:39 GMT"
         },
         {
           "Name": "Vary",
@@ -60958,11 +60958,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rm8d8i6a0b"
+          "Value": "yb482kolei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc="
+          "Value": "sha256-7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI="
         },
         {
           "Name": "label",
@@ -60971,7 +60971,7 @@
       ]
     },
     {
-      "Route": "css/site.rm8d8i6a0b.css",
+      "Route": "css/site.yb482kolei.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -60985,7 +60985,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7647"
+          "Value": "7942"
         },
         {
           "Name": "Content-Type",
@@ -60993,21 +60993,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc=\""
+          "Value": "\"7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:55:05 GMT"
+          "Value": "Thu, 06 Feb 2025 12:28:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rm8d8i6a0b"
+          "Value": "yb482kolei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-89yaVeB/6cFjMLjs5ik0khzVydrRmHBvLTkndZI45Sc="
+          "Value": "sha256-7pn4K98sbnEXRSxyqIH8tX5c6Lwr2CRULUTtAX1rDGI="
         },
         {
           "Name": "label",
@@ -61016,7 +61016,7 @@
       ]
     },
     {
-      "Route": "css/site.rm8d8i6a0b.css.gz",
+      "Route": "css/site.yb482kolei.css.gz",
       "AssetFile": "css/site.css.gz",
       "Selectors": [],
       "ResponseHeaders": [
@@ -61034,7 +61034,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1745"
+          "Value": "1820"
         },
         {
           "Name": "Content-Type",
@@ -61042,11 +61042,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ok6cGB+bR3D6xzNs0ZtJ1oIz+Ny4sTSDqQc6ayHMtNU=\""
+          "Value": "\"TKS/gWSqIg6r67U79bR8JAv1w4/QppOpBoOiLGtDX8M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 08:55:05 GMT"
+          "Value": "Thu, 06 Feb 2025 12:28:39 GMT"
         },
         {
           "Name": "Vary",
@@ -61056,11 +61056,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rm8d8i6a0b"
+          "Value": "yb482kolei"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ok6cGB+bR3D6xzNs0ZtJ1oIz+Ny4sTSDqQc6ayHMtNU="
+          "Value": "sha256-TKS/gWSqIg6r67U79bR8JAv1w4/QppOpBoOiLGtDX8M="
         },
         {
           "Name": "label",
@@ -61147,6 +61147,5686 @@
         {
           "Name": "integrity",
           "Value": "sha256-Gm9F2br8P9hk6VPF7rNBu9Np8UFT7o9TMkYpFRJnCW0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.p3rk2u0kjt.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3rk2u0kjt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176628"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NUCV5aNmzIABrFXUlwiBjOkWkjLMJZb2L4j6psD6qOg="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw+flMkSvvEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw+flMkSvvEw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.xqwmy5y5qa.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw+flMkSvvEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xqwmy5y5qa"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t7pptQmBOJaFnBqAhkgWTPMQT3vk9uWrw+flMkSvvEw="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/OFL.bnra9rd8hr.txt",
+      "AssetFile": "fonts/Bodoni_Moda/OFL.txt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000494559842"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4o9QiixfwHfGItYI7VI9KXdvsAZcX64Z0l9Py97moIk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bnra9rd8hr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/OFL.txt"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/OFL.bnra9rd8hr.txt",
+      "AssetFile": "fonts/Bodoni_Moda/OFL.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bnra9rd8hr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/OFL.txt"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/OFL.bnra9rd8hr.txt.gz",
+      "AssetFile": "fonts/Bodoni_Moda/OFL.txt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4o9QiixfwHfGItYI7VI9KXdvsAZcX64Z0l9Py97moIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bnra9rd8hr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4o9QiixfwHfGItYI7VI9KXdvsAZcX64Z0l9Py97moIk="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/OFL.txt.gz"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/OFL.txt",
+      "AssetFile": "fonts/Bodoni_Moda/OFL.txt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000494559842"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4o9QiixfwHfGItYI7VI9KXdvsAZcX64Z0l9Py97moIk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/OFL.txt",
+      "AssetFile": "fonts/Bodoni_Moda/OFL.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d29gnx7uTv9NCqpxgMHAytblXY7QciY46zLoGckBP6M="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/OFL.txt.gz",
+      "AssetFile": "fonts/Bodoni_Moda/OFL.txt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2021"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4o9QiixfwHfGItYI7VI9KXdvsAZcX64Z0l9Py97moIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4o9QiixfwHfGItYI7VI9KXdvsAZcX64Z0l9Py97moIk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/README.qcie53o151.txt",
+      "AssetFile": "fonts/Bodoni_Moda/README.txt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000814332248"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0FaLloGOky6qAjkOnNtosCfo55d17ZQLzbq8HR/f8Y=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcie53o151"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/README.txt"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/README.qcie53o151.txt",
+      "AssetFile": "fonts/Bodoni_Moda/README.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcie53o151"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/README.txt"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/README.qcie53o151.txt.gz",
+      "AssetFile": "fonts/Bodoni_Moda/README.txt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0FaLloGOky6qAjkOnNtosCfo55d17ZQLzbq8HR/f8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qcie53o151"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h0FaLloGOky6qAjkOnNtosCfo55d17ZQLzbq8HR/f8Y="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/README.txt.gz"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/README.txt",
+      "AssetFile": "fonts/Bodoni_Moda/README.txt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000814332248"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0FaLloGOky6qAjkOnNtosCfo55d17ZQLzbq8HR/f8Y=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/README.txt",
+      "AssetFile": "fonts/Bodoni_Moda/README.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiULUWhNnYs3tJ03+8/fghq7XRKE+cbP6tBPJLVr7tc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/README.txt.gz",
+      "AssetFile": "fonts/Bodoni_Moda/README.txt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0FaLloGOky6qAjkOnNtosCfo55d17ZQLzbq8HR/f8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h0FaLloGOky6qAjkOnNtosCfo55d17ZQLzbq8HR/f8Y="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.0ta569dac2.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9J9jxnAq2eBeaYfp0bucrdAZWGB+mQyVdtQ6xcQis1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ta569dac2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9J9jxnAq2eBeaYfp0bucrdAZWGB+mQyVdtQ6xcQis1o="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9J9jxnAq2eBeaYfp0bucrdAZWGB+mQyVdtQ6xcQis1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9J9jxnAq2eBeaYfp0bucrdAZWGB+mQyVdtQ6xcQis1o="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.9n5swr3d8c.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9n5swr3d8c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lecl/JGtH2tsbLWJa3lHD47kFbZ35adr6tqsHnOJETE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GK0SriOk6+BWxjir5AcCQ5NX5Rr10IcgGae1w5Iv+TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GK0SriOk6+BWxjir5AcCQ5NX5Rr10IcgGae1w5Iv+TU="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.wiz13sbfbd.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GK0SriOk6+BWxjir5AcCQ5NX5Rr10IcgGae1w5Iv+TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wiz13sbfbd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GK0SriOk6+BWxjir5AcCQ5NX5Rr10IcgGae1w5Iv+TU="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Bold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.qxk0tfwloq.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"An3L0tTTjL+XL8MD8z81JN6XirRWs03+kGve7PInt8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxk0tfwloq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-An3L0tTTjL+XL8MD8z81JN6XirRWs03+kGve7PInt8Q="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"An3L0tTTjL+XL8MD8z81JN6XirRWs03+kGve7PInt8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-An3L0tTTjL+XL8MD8z81JN6XirRWs03+kGve7PInt8Q="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ssht249ck8.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1+CBykJENlQ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ssht249ck8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1+CBykJENlQ4="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1+CBykJENlQ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pJ7mLjLngF24l9jvSf4oClAsXy6bHWO1+CBykJENlQ4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.g2lwgcij6z.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g2lwgcij6z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNIg330ffSRKGDxNF90D5HgdFTyDy4QkSCqasuiJQhM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.pydn2ybbjq.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pydn2ybbjq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cSALlpD6fhARIek4Jz3oeyI3Xp3049xeukd5FAG8U30="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.g35gnh28pu.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g35gnh28pu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NAcRK1/x5iuCqfQ4ziA4ayLdjLONibogG/YSeS0Fjy4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.qqew6cfq8e.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qqew6cfq8e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xger/BSx6Ry1clAFWC5QrMNyNeB2jOzSIRdvYLHpJs4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.6jlwapyrqh.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AmPwmhGCj3glC+WXfOk3PjEvQO+/nTWcBId0tLy/jFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6jlwapyrqh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AmPwmhGCj3glC+WXfOk3PjEvQO+/nTWcBId0tLy/jFI="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AmPwmhGCj3glC+WXfOk3PjEvQO+/nTWcBId0tLy/jFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AmPwmhGCj3glC+WXfOk3PjEvQO+/nTWcBId0tLy/jFI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.pm4nzal4mh.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pm4nzal4mh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z82EO74AisLqY6hWttwdz7nN6y/LG8CZ2gGCQAe/Qmc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ec7ma0qk91.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ec7ma0qk91"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_18pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62436"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UkdeXYJhdge90IwsjdVllrjSIYqmTNAowG/8W6fDDHk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.blt27auhez.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "blt27auhez"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T/GvcY7vD6UPu1Csc3RSQz2iXY3v9NfoNzTPRm3h/ls="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.wom3fbo8dt.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wom3fbo8dt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oJAUVealxgxfndigstRC3LLRqHnPpYL/irAc/FfiuBk="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BlackItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.qi9d34dbg3.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qi9d34dbg3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cnQdqD5BiQZGsujmheH3BbXKtVec/EW91YjMm8EDjhY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.jsjarvpjy7.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jsjarvpjy7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6naY7scpaE3Gn3BxsdUIAscnejwyodp3KBntCiC6Eo="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.4zeq6lxxyz.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4zeq6lxxyz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UFiRNV9ReBwKUFfR21EwWDXKIozl5Kz0Hih0ZjmhMDM="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.se7lg99rqq.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "se7lg99rqq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xDzTWrgVRUo7YlHeikyMvAesxdLaoYZieZf2yWZHwsk="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.l3w8nu8yos.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f/x3FhyBEZW+eerWxH15beX5DKubzavORZkqS0WH+54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l3w8nu8yos"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f/x3FhyBEZW+eerWxH15beX5DKubzavORZkqS0WH+54="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f/x3FhyBEZW+eerWxH15beX5DKubzavORZkqS0WH+54=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f/x3FhyBEZW+eerWxH15beX5DKubzavORZkqS0WH+54="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.hfkw8rfh3a.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfkw8rfh3a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k0y9RXzNI/3jyolhz3mcbBM/ysSg9pjT7nABdrrYXJY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.1r2g7owlo8.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1r2g7owlo8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7XizoHuv4wZb3wzye7pXQ2ShkbvpkGgERdjB8FMZbiw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.dx89otnofp.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cbEVWaUb6nkFT7HOV5msTCSDVPaO+43gDCnfGjF8/aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dx89otnofp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cbEVWaUb6nkFT7HOV5msTCSDVPaO+43gDCnfGjF8/aE="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cbEVWaUb6nkFT7HOV5msTCSDVPaO+43gDCnfGjF8/aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cbEVWaUb6nkFT7HOV5msTCSDVPaO+43gDCnfGjF8/aE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.27c7y9661u.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gsBa3BCqBE/97rbKGklKOkB+jXGhOsL7/bTAjkAvPKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "27c7y9661u"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gsBa3BCqBE/97rbKGklKOkB+jXGhOsL7/bTAjkAvPKw="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gsBa3BCqBE/97rbKGklKOkB+jXGhOsL7/bTAjkAvPKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gsBa3BCqBE/97rbKGklKOkB+jXGhOsL7/bTAjkAvPKw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ol50wutjwj.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ol50wutjwj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_28pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62440"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XATj3ZJJss5umhkDdK5m5rTsuBGnu1xJbAKt6UeaSKc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.kv7ri8uly3.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPJSqDn0b+Jl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kv7ri8uly3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPJSqDn0b+Jl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPJSqDn0b+Jl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPJSqDn0b+Jl6i23X/AXIkRqc2h0Lr8dsjVvVHZW774="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.7y0p6jovvr.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7y0p6jovvr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8fyrBkDVnEnqxvPODZjSo6/LyNphBHtfiLsBepaimCs="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.vazbbts2ju.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vazbbts2ju"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d0b076gNqhxp40A/7Yd/eYsQdCKXq24Wi4ya1qbzei0="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Bold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.uhtyt9vt0l.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uhtyt9vt0l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LgUcsmwH8yH0m2efH51PdQEY3gkKPgHGsQwxjh0lm5Q="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ffpzexiteh.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e73tUiwiXaohI7zQ4A8zt+raY2XbQzdLQEQDnZWXxAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ffpzexiteh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e73tUiwiXaohI7zQ4A8zt+raY2XbQzdLQEQDnZWXxAs="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e73tUiwiXaohI7zQ4A8zt+raY2XbQzdLQEQDnZWXxAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e73tUiwiXaohI7zQ4A8zt+raY2XbQzdLQEQDnZWXxAs="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ddhaxkn7b0.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8hM/2Q6GD+qg5FhQi1XUliejhBulC5YFrgX2/iAE1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ddhaxkn7b0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j8hM/2Q6GD+qg5FhQi1XUliejhBulC5YFrgX2/iAE1U="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8hM/2Q6GD+qg5FhQi1XUliejhBulC5YFrgX2/iAE1U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j8hM/2Q6GD+qg5FhQi1XUliejhBulC5YFrgX2/iAE1U="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.asf26cqzbs.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lm2vz5E/SEPIPCpa6YZgIj60ByA8UX+ZHbe/2vmiMk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "asf26cqzbs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lm2vz5E/SEPIPCpa6YZgIj60ByA8UX+ZHbe/2vmiMk8="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lm2vz5E/SEPIPCpa6YZgIj60ByA8UX+ZHbe/2vmiMk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lm2vz5E/SEPIPCpa6YZgIj60ByA8UX+ZHbe/2vmiMk8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.svyikv3xbt.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "svyikv3xbt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGG6CNwTuIAF7On12BYXmVqC7A8WycPowRovI13bMm8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.b7txhdyn2z.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F/drICQg06NLbj6vM6C4EWWs9nPs3DV+QzWPFWGdJdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b7txhdyn2z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F/drICQg06NLbj6vM6C4EWWs9nPs3DV+QzWPFWGdJdo="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F/drICQg06NLbj6vM6C4EWWs9nPs3DV+QzWPFWGdJdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F/drICQg06NLbj6vM6C4EWWs9nPs3DV+QzWPFWGdJdo="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.d3zxp7d6t2.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d3zxp7d6t2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6bQBvCzFytMXd9fjm3TWFbAy0cZNRkpvaAkbeLLmh9M="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.v0t9dk0871.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0t9dk0871"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L/g1STKUnlRqiIT2jBYzDEWiODX/wRN0xNwPduUfzHE="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.t0ijtljugv.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t0ijtljugv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_48pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A73FGHYtk7idstpVxrj1Vv4e5j53q1qmvBi6aQfInmI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.yet6t6sqng.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yet6t6sqng"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ai/bk/egHxsKSEh5FNJQRS/obny0keQSHX3U5yG1AxI="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Black.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.jvhshbz932.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm+yrvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jvhshbz932"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm+yrvc="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62456"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm+yrvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gYmIFvXUkiWdsnLMPEuwA7AnE5HYIyb7hYkacm+yrvc="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.7f9q52rw97.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg+H81g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7f9q52rw97"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg+H81g="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg+H81g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zTB0X3Wu0DPtpDqjuhxf4gweq/XFCaaLu3EmCg+H81g="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.bt46jnf3k5.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W+TBEUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bt46jnf3k5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W+TBEUA="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W+TBEUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IUP7oC/2Lqb/lL57cTunGQPzYYPzo2VEiWz1W+TBEUA="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.csrsg47dko.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "csrsg47dko"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VDRwTW1opKrsv9dvGK8BQnaS/ROkf0HzB8nhquFIZT8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.pb5ar90nrh.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dbgxpt+4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pb5ar90nrh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dbgxpt+4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dbgxpt+4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dbgxpt+4hzBxXzPW1uwEVZkULCnKHAdXn9vuIf7SQx8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.r87h94ag5s.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6xf9T2+XiYkIzNrj3p+a8lQ2Adl97NIfyPRM19OrX50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r87h94ag5s"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6xf9T2+XiYkIzNrj3p+a8lQ2Adl97NIfyPRM19OrX50="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6xf9T2+XiYkIzNrj3p+a8lQ2Adl97NIfyPRM19OrX50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6xf9T2+XiYkIzNrj3p+a8lQ2Adl97NIfyPRM19OrX50="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.4jea6jgi2j.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4jea6jgi2j"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8CUVziECn0LTOaiOQasae8jVNCliDRV2sC9ze7o8kwo="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.0of7bfqrdt.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0of7bfqrdt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8M3Ht1JIvVKB1jFa4pqJ2mDrCPsdvdA81cKXEu5KAR4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.thi8llu5rs.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "thi8llu5rs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-odh1oSVUdZgNgZ1ADtSbgqXgC8jcS6JcezpIc8JCDa4="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R6w9E3+nwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R6w9E3+nwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.vqs3wqzcsf.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R6w9E3+nwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vqs3wqzcsf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R6w9E3+nwUZ7qjlrIgvQGIh0L9fPAYRdvcJXAaRlDwE="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.c0nc8ipg9o.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOBkjcbr1c+NHYMUm0lV15cqkzLnmArLn4nB1pJAgxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c0nc8ipg9o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOBkjcbr1c+NHYMUm0lV15cqkzLnmArLn4nB1pJAgxw="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_72pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62364"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hOBkjcbr1c+NHYMUm0lV15cqkzLnmArLn4nB1pJAgxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hOBkjcbr1c+NHYMUm0lV15cqkzLnmArLn4nB1pJAgxw="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ckr21ttcqa.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DP0h53clDPE6uS+mxqbg89uEGL1lsuRY3N8b5l9tY5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ckr21ttcqa"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DP0h53clDPE6uS+mxqbg89uEGL1lsuRY3N8b5l9tY5Y="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Black.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DP0h53clDPE6uS+mxqbg89uEGL1lsuRY3N8b5l9tY5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DP0h53clDPE6uS+mxqbg89uEGL1lsuRY3N8b5l9tY5Y="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.rn4gwy8m4l.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rn4gwy8m4l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BlackItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aZwsai3blZ3WYRdh3kvx583/Nz2bGAK644lGetfJWhY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.jubunvlcs2.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jubunvlcs2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Bold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ezp41U1HMug4xB27UNw7Gc3yVIlcVLjekwWFYUQIrP8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.gstbjd6925.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kFK6PTMqpA8zyOCTzgYQPUfouJ+A6MyUnseL341V8j8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gstbjd6925"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kFK6PTMqpA8zyOCTzgYQPUfouJ+A6MyUnseL341V8j8="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-BoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kFK6PTMqpA8zyOCTzgYQPUfouJ+A6MyUnseL341V8j8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kFK6PTMqpA8zyOCTzgYQPUfouJ+A6MyUnseL341V8j8="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.0am0b9sqx5.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN+eE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0am0b9sqx5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN+eE="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN+eE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yF9XYl2t5D0GDHKgJFesmE2NwUCzNA9a24msExRN+eE="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.r21j7j40u8.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r21j7j40u8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-ExtraBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zaAaMOWTLtnYeTDiwfMhtjw4BvbgAiyKhNrqp/tDHxI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.15q8i14cuy.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5M0UlKzgmvxkmgTUs19EYjmDwuC8+DdupqnhI5O98s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15q8i14cuy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5M0UlKzgmvxkmgTUs19EYjmDwuC8+DdupqnhI5O98s="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Italic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q5M0UlKzgmvxkmgTUs19EYjmDwuC8+DdupqnhI5O98s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q5M0UlKzgmvxkmgTUs19EYjmDwuC8+DdupqnhI5O98s="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.eu5822oh7j.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eu5822oh7j"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Medium.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lhldrdMggXND/HuAcABDHYlMSOqS2tvBFPMwuYeszuQ="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.69kvdfzr5k.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69kvdfzr5k"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-MediumItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ts7neDqJUtKDNsW1m7YN5hfOBcSPl79w/Pp1RsIEOZI="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ilale0mz8b.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ilale0mz8b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-Regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5hZIzSz86v4inLc7YQihVCeb8kr2rtqGWHek9PSFYlY="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.r5lqeaaq33.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r5lqeaaq33"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBold.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0NM6DhdbEgHvaTUABVVzdssBxhd5YwyR66w8livJGQ="
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.n5vzx55b0y.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hXKDAZ7dkSfakTwlPZPbNk+WoffeG6uPjD0PawkUVcM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n5vzx55b0y"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXKDAZ7dkSfakTwlPZPbNk+WoffeG6uPjD0PawkUVcM="
+        },
+        {
+          "Name": "label",
+          "Value": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.ttf"
+        }
+      ]
+    },
+    {
+      "Route": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.ttf",
+      "AssetFile": "fonts/Bodoni_Moda/static/BodoniModa_9pt-SemiBoldItalic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hXKDAZ7dkSfakTwlPZPbNk+WoffeG6uPjD0PawkUVcM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 13:44:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXKDAZ7dkSfakTwlPZPbNk+WoffeG6uPjD0PawkUVcM="
         }
       ]
     },
@@ -61829,174 +67509,13 @@
       ]
     },
     {
-      "Route": "js/supabase.3o75ot863k.js",
-      "AssetFile": "js/supabase.js.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001219512195"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "819"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Y9NGlHDHC5VQbT2GOtQBp2FhpISCO0g76ivsjCQo8vw=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 02:17:33 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3o75ot863k"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg="
-        },
-        {
-          "Name": "label",
-          "Value": "js/supabase.js"
-        }
-      ]
-    },
-    {
-      "Route": "js/supabase.3o75ot863k.js",
-      "AssetFile": "js/supabase.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2814"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 02:17:33 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3o75ot863k"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg="
-        },
-        {
-          "Name": "label",
-          "Value": "js/supabase.js"
-        }
-      ]
-    },
-    {
-      "Route": "js/supabase.3o75ot863k.js.gz",
-      "AssetFile": "js/supabase.js.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "819"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Y9NGlHDHC5VQbT2GOtQBp2FhpISCO0g76ivsjCQo8vw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 02:17:33 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3o75ot863k"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Y9NGlHDHC5VQbT2GOtQBp2FhpISCO0g76ivsjCQo8vw="
-        },
-        {
-          "Name": "label",
-          "Value": "js/supabase.js.gz"
-        }
-      ]
-    },
-    {
       "Route": "js/supabase.js",
       "AssetFile": "js/supabase.js.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001219512195"
+          "Quality": "0.001222493888"
         }
       ],
       "ResponseHeaders": [
@@ -62014,7 +67533,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "819"
+          "Value": "817"
         },
         {
           "Name": "Content-Type",
@@ -62022,15 +67541,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y9NGlHDHC5VQbT2GOtQBp2FhpISCO0g76ivsjCQo8vw=\""
+          "Value": "\"2UePtQ4GDlgfDgGdi9fKmwJ6oBtzsKgI9DO1Ve/kB6k=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg=\""
+          "Value": "W/\"J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 02:17:33 GMT"
+          "Value": "Thu, 06 Feb 2025 12:03:15 GMT"
         },
         {
           "Name": "Vary",
@@ -62040,7 +67559,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg="
+          "Value": "sha256-J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik="
         }
       ]
     },
@@ -62059,7 +67578,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2814"
+          "Value": "2800"
         },
         {
           "Name": "Content-Type",
@@ -62067,17 +67586,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg=\""
+          "Value": "\"J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 02:17:33 GMT"
+          "Value": "Thu, 06 Feb 2025 12:03:15 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7Z2fmAZb1BeMfFsaIJMJOxFQ+zDsa/mbPd/zeeM27Kg="
+          "Value": "sha256-J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik="
         }
       ]
     },
@@ -62100,7 +67619,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "819"
+          "Value": "817"
         },
         {
           "Name": "Content-Type",
@@ -62108,11 +67627,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y9NGlHDHC5VQbT2GOtQBp2FhpISCO0g76ivsjCQo8vw=\""
+          "Value": "\"2UePtQ4GDlgfDgGdi9fKmwJ6oBtzsKgI9DO1Ve/kB6k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 02:17:33 GMT"
+          "Value": "Thu, 06 Feb 2025 12:03:15 GMT"
         },
         {
           "Name": "Vary",
@@ -62122,7 +67641,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Y9NGlHDHC5VQbT2GOtQBp2FhpISCO0g76ivsjCQo8vw="
+          "Value": "sha256-2UePtQ4GDlgfDgGdi9fKmwJ6oBtzsKgI9DO1Ve/kB6k="
+        }
+      ]
+    },
+    {
+      "Route": "js/supabase.t7o5k6r50q.js",
+      "AssetFile": "js/supabase.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001222493888"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2UePtQ4GDlgfDgGdi9fKmwJ6oBtzsKgI9DO1Ve/kB6k=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 12:03:15 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t7o5k6r50q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik="
+        },
+        {
+          "Name": "label",
+          "Value": "js/supabase.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/supabase.t7o5k6r50q.js",
+      "AssetFile": "js/supabase.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 12:03:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t7o5k6r50q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik="
+        },
+        {
+          "Name": "label",
+          "Value": "js/supabase.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/supabase.t7o5k6r50q.js.gz",
+      "AssetFile": "js/supabase.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2UePtQ4GDlgfDgGdi9fKmwJ6oBtzsKgI9DO1Ve/kB6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Feb 2025 12:03:15 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t7o5k6r50q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2UePtQ4GDlgfDgGdi9fKmwJ6oBtzsKgI9DO1Ve/kB6k="
+        },
+        {
+          "Name": "label",
+          "Value": "js/supabase.js.gz"
         }
       ]
     },
