@@ -1,0 +1,13 @@
+@using myBlazorApp.Models
+
+<div class="close-container">
+    <div class="material-symbols-outlined close-button" @onclick="ClosePopup">close</div>
+</div>
+<h2 class="about guide">write a post.<br>
+browse to see what others have shared.<br>
+search to find topics or names.<br><br>
+Feel free to share your thoughts with, or without revealing your identity. Your privacy is important to us.</h2>
+
+@code {
+    [Parameter] public EventCallback ClosePopup { get; set; }
+}

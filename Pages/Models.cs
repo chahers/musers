@@ -19,6 +19,8 @@ namespace myBlazorApp.Models
         SearchResults,
         Notifications,
         HelpSupport,
+        AppGuide,
+        ContactUs,
         TermsConditions,
         About
     }

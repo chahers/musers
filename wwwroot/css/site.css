@@ -326,7 +326,7 @@
 }
 
 .about {
-    padding: 12vh 30px 0 30px;
+    padding: 12vh 40px 0 40px;
     justify-self: center;
     color: #2A5496;
     -webkit-text-stroke: 0.5px #2A5496;
@@ -335,6 +335,10 @@
     animation: fade-in 2s;
     width: 100vw;
     text-align: left;
+}
+
+.about.guide {
+    padding-top: 15vh;
 }
 
 body.no-scroll {

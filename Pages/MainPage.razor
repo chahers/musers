@@ -47,7 +47,15 @@
             }
             else if (activePopup == PopupType.HelpSupport)
             {
-                <HelpSupport returnToMenu="returnToMenu"/>
+                <HelpSupport returnToMenu="returnToMenu" OpenPopup="OpenPopup"/>
+            }
+            else if (activePopup == PopupType.AppGuide)
+            {
+                <AppGuide ClosePopup="ClosePopup"/>
+            }
+            else if (activePopup == PopupType.ContactUs)
+            {
+                <ContactUs ClosePopup="ClosePopup"/>
             }
             else if (activePopup == PopupType.TermsConditions)
             {

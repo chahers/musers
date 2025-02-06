@@ -30,9 +30,14 @@
         {
             <span class="char-count">content has reached limit of 250 characters</span>
         }
+        @if (InputError && NameInput == "" && ContentInput == "")
+        {
+            <span class="char-count">name and content cannot be empty</span>
+        }
 </div>
 
 @code {
+    private bool InputError = false;
     private string NameInput { get; set; } = "";
     private string ContentInput { get; set; } = "";
     [Parameter] public Action<PopupType>? OpenPopup { get; set; }
@@ -42,8 +47,11 @@
         if (string.IsNullOrWhiteSpace(NameInput) || string.IsNullOrWhiteSpace(ContentInput))
         {
             Console.WriteLine("Name and Content cannot be empty.");
+            InputError = true;
             return;
         }
+
+        InputError = false;
 
         var post = new
         {
