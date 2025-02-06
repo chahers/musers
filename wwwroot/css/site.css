@@ -16,6 +16,8 @@
 }
 
 .post-container {
+    max-height: 80vh;
+    overflow-y: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px;

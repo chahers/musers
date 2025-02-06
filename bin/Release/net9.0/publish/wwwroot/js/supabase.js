@@ -8,7 +8,7 @@ window.getTableData = async function (table, limit, offset) {
             .from(table)
             .select('*')
             .eq('state', 'approved')
-            .order('timestamp', { ascending: false })
+            .order('id', { ascending: false })
             .limit(limit)
             .range(offset, offset + limit - 1);
 
@@ -57,7 +57,7 @@ window.searchPosts = async function (table, searchWord, limit, offset) {
             .eq('state', 'approved')
             .or(`content.ilike.%${ searchWord }%,author.ilike.%${ searchWord }%`) 
             // .or(`content.similar_to.'% ${searchWord} %', author.similar_to.'% ${searchWord} %'`)
-            .order('timestamp', { ascending: false })
+            .order('id', { ascending: false })
             .limit(limit)
             .range(offset, offset + limit - 1);
 

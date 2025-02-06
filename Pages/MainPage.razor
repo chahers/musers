@@ -75,7 +75,7 @@ else{
     JSRuntime.InvokeVoidAsync("enableScroll");
 }
 
-<div class="post-container">
+<div class="post-container" @ref="scrollContainer" @onscroll="OnScroll">
     @if (posts != null && posts.Any())
     {
         @for (int i = 0; i < posts.Count; i++)
@@ -91,43 +91,91 @@ else{
             </div>
         }
     }
-    else
+    @if (isLoading)
     {
-        <p class="loading">Loading posts...</p>
+        <div class="loading">Loading more posts...</div>
     }
 </div>
 
 @code {
     private int postCount = 10; // Default to 10 posts for mobile
-    private List<Post>? posts;
+    private List<Post> posts = new();
+    private bool isLoading = false;
+    private bool hasMorePosts = true;
+    private int currentPage = 1;
+    private readonly int pageSize = 8;
+    private ElementReference scrollContainer;
+    private IJSObjectReference? module;
 
-     protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
             try
             {
-                // Get screen width to determine post count
-                int screenWidth = await JSRuntime.InvokeAsync<int>("getScreenWidth");
-                Console.WriteLine($"screen width is: {screenWidth}");
-
-                postCount = screenWidth >= 1024 ? 12 : 10;
-
-                // Fetch posts from Supabase
-                int offset = 0; // Start from the first post (adjust this if implementing pagination)
-                var jsonString = await Supabase.GetTableData("posts", postCount, offset);
-
-                // Deserialize the JSON response into the posts list
-                posts = JsonSerializer.Deserialize<List<Post>>(jsonString);
-                @* posts.Reverse(); *@
-                // Trigger re-render once posts are loaded
-                StateHasChanged();
+                module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/custom.js");
+                await LoadMorePosts();
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error fetching posts: {ex.Message}");
+                Console.WriteLine($"JS Module Load Error: {ex.Message}");
             }
         }
+    }
+
+
+    private async Task LoadMorePosts()
+    {
+        if (isLoading || !hasMorePosts) return;
+
+        isLoading = true;
+
+        try
+        {
+            // Fetch posts from Supabase
+            int offset = (currentPage - 1) * pageSize; // Adjust offset for pagination
+            var jsonString = await Supabase.GetTableData("posts", pageSize, offset);
+
+            // Deserialize the JSON response into the posts list
+            var newPosts = JsonSerializer.Deserialize<List<Post>>(jsonString);
+
+            if (newPosts?.Count < pageSize)
+            {
+                hasMorePosts = false;
+            }
+
+            posts?.AddRange(newPosts);
+            currentPage++;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching posts: {ex.Message}");
+        }
+
+        isLoading = false;
+        StateHasChanged();
+    }
+
+    [JSInvokable]
+    private async Task OnScroll()
+    {
+        // Get the scroll position and height of the container
+        try
+        {
+            var scrollHeight = await JSRuntime.InvokeAsync<int>("blazorHelpers.getScrollHeight", scrollContainer);
+            var scrollTop = await JSRuntime.InvokeAsync<int>("blazorHelpers.getScrollTop", scrollContainer);
+            var clientHeight = await JSRuntime.InvokeAsync<int>("blazorHelpers.getClientHeight", scrollContainer);
+            // Check if user is near the bottom (100px away)
+            if (scrollHeight - scrollTop - clientHeight < 100 && !isLoading && hasMorePosts)
+            {
+                await LoadMorePosts();
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error getting window size: {ex.Message}");
+        }
+        
     }
     private Post SelectedPost { get; set; }
 
