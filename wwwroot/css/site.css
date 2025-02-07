@@ -21,7 +21,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px;
-    padding: 30px 15px;
+    padding: 30px 15px 0 15px;
     margin-top: 80px;
     overflow-x: hidden;
     z-index: 3;
@@ -29,6 +29,7 @@
 
 .post-container.results {
     margin-top: 35px;
+    max-height: 100%;
 }
 
 .loading {
@@ -132,7 +133,7 @@
     position: absolute;
     bottom: 0;
     left: 10;
-    padding: 25px 70% 3px 0 ;
+    padding: 25px 72.5% 3px 0 ;
     background-color: #F7F4EB;
 }
 
@@ -345,6 +346,17 @@
 
 .about.guide {
     padding-top: 15vh;
+}
+
+.contact-container {
+    justify-self: center;
+    color: #838585;
+    -webkit-text-stroke: 0.5px #838585;
+    font-family: 'Bodoni Moda';
+    font-size: 20px;
+    width: 100vw;
+    text-align: left;
+    padding: 0 40px;
 }
 
 body.no-scroll {

@@ -277,6 +277,54 @@
       "PackagePath": "staticwebassets\\fonts\\Bodoni_Moda\\static\\BodoniModa_9pt-SemiBoldItalic.ttf"
     },
     {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\Lora-Italic-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\Lora-Italic-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\Lora-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\Lora-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\README.txt",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\fonts\\Lora\\static\\Lora-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lora\\static\\Lora-SemiBoldItalic.ttf"
+    },
+    {
       "Id": "C:\\Users\\milky\\Desktop\\myBlazorApp\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
