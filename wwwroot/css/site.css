@@ -16,7 +16,7 @@
 }
 
 .post-container {
-    max-height: 80vh;
+    max-height: 85vh;
     overflow-y: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
@@ -97,7 +97,7 @@
     padding-top: 10px;
     color: #73706A;
     -webkit-text-stroke: 0.25px #73706A;
-    font-family: 'Bodoni Moda';
+    font-family: 'Lora';
     font-size: 15px;
 }
 
@@ -108,7 +108,7 @@
 .content {
     color: #73706A;
     -webkit-text-stroke: 0.25px #73706A;
-    font-family: 'Bodoni Moda';
+    font-family: 'Lora';
     font-size: 18px;
     padding: 10px 0 35px 0;
     max-width: calc(inherit - 5px);
@@ -192,7 +192,7 @@
     outline: none;
     color: #73706A;
     -webkit-text-stroke: 0.25px #73706A;
-    font-family: 'Bodoni Moda';
+    font-family: 'Lora';
     font-size: 20px; 
     padding-top: 20px;
     width: calc(100% - 15px);
@@ -354,6 +354,11 @@ body.no-scroll {
 @font-face {
     font-family: 'Bodoni Moda';
     src: url('../fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora/Lora-VariableFont_wght.ttf') format('truetype');
 }
 
 @media (max-width: 641px) {

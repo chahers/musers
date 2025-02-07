@@ -113,6 +113,7 @@ else{
         {
             try
             {
+                OpenPopup(PopupType.AppGuide);
                 module = await JSRuntime.InvokeAsync<IJSObjectReference>("import", "./js/custom.js");
                 await LoadMorePosts();
             }
