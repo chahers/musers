@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LIK5no1o9s4=",
+  "dgSpecHash": "vYq/+R4LYDc=",
   "success": true,
   "projectFilePath": "C:\\Users\\milky\\Desktop\\myBlazorApp\\myBlazorApp.csproj",
   "expectedPackageFiles": [
@@ -28,9 +28,9 @@
     "C:\\Users\\milky\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
     "C:\\Users\\milky\\.nuget\\packages\\microsoft.jsinterop\\9.0.1\\microsoft.jsinterop.9.0.1.nupkg.sha512",
     "C:\\Users\\milky\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.1\\microsoft.jsinterop.webassembly.9.0.1.nupkg.sha512",
-    "C:\\Users\\milky\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.1\\microsoft.net.illink.tasks.9.0.1.nupkg.sha512",
-    "C:\\Users\\milky\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.1\\microsoft.net.sdk.webassembly.pack.9.0.1.nupkg.sha512",
-    "C:\\Users\\milky\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.1\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.1.nupkg.sha512"
+    "C:\\Users\\milky\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.2\\microsoft.net.illink.tasks.9.0.2.nupkg.sha512",
+    "C:\\Users\\milky\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.2\\microsoft.net.sdk.webassembly.pack.9.0.2.nupkg.sha512",
+    "C:\\Users\\milky\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\9.0.2\\microsoft.netcore.app.runtime.mono.browser-wasm.9.0.2.nupkg.sha512"
   ],
   "logs": []
 }

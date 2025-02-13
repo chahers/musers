@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9dcw3kahog</Fingerprint>
-      <Integrity>nZmZ44CQlt4Wi5eevq9HZX9yn3LIiwtiWTos7xZ4doE=</Integrity>
+      <Fingerprint>nnodsv94m3</Fingerprint>
+      <Integrity>E8aDneusn/U5hxvc3SfCt3PYmYA9Bqd6zfVpKRtQ/Cc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -1488,8 +1488,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t7o5k6r50q</Fingerprint>
-      <Integrity>J5q1hanWlkPadFRNoHSTBrdn37HkbWQ0PrZRCuX+Bik=</Integrity>
+      <Fingerprint>go16584b02</Fingerprint>
+      <Integrity>AG1lsq51V9i2uwm27SFwMD4izzx1jDS+F3LEhLcfLZo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\supabase.js'))</OriginalItemSpec>
